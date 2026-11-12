@@ -62,28 +62,29 @@ const IDENTITAS_FIELDS = [
   { key: 'nipKepala', label: 'NIP Kepala Madrasah' },
 ]
 
+/* Data contoh fiktif: ganti dengan data madrasah dan guru yang sebenarnya. */
 const DEFAULT_IDENTITAS = {
-  nama: 'Mohammad Yusuf Rizaldy, S.Pd',
+  nama: 'Nama Guru, S.Pd',
   nip: '-',
   nrg: '-',
   nuptk: '-',
   karpeg: '-',
   jenisKelamin: 'Laki-laki',
-  tempatLahir: 'Jombang',
-  tanggalLahir: '24 Desember 1997',
+  tempatLahir: 'Surabaya',
+  tanggalLahir: '1 Januari 1990',
   pendidikan: 'S1',
   pangkat: 'Penata Muda, III/a',
   tmtGol: '1 Juli 2025',
   tmtGuru: '1 Juli 2025',
   tmtTugas: '',
-  mapel: 'Bahasa Inggris',
+  mapel: 'Matematika',
   jamMengajar: 20,
   tugas1: 'Pembina Ekstrakurikuler',
   tugas2: 'Guru Piket',
   tugas3: '-',
   tugasLain: '',
   jamLain: 0,
-  penilai: 'H. Wachid, S.Ag',
+  penilai: 'Nama Penilai, S.Pd',
   nipPenilai: '',
   pangkatPenilai: '',
   tanggalPenilaian: '14 September 2026',
@@ -92,15 +93,15 @@ const DEFAULT_IDENTITAS = {
   formatif: '0',
   sumatif: 'V',
   kemajuan: '0',
-  madrasah: 'MI Plus Darul Falah',
-  alamat: 'Jl. Yos Sudarso 06 Gambiran Mojoagung Jombang',
-  telp: '085784600068',
-  kelurahan: 'Gambiran',
-  kecamatan: 'Mojoagung',
-  kabupaten: 'Jombang',
+  madrasah: 'MI Contoh',
+  alamat: 'Jl. Pendidikan No. 1',
+  telp: '0812-3456-7890',
+  kelurahan: 'Desa Contoh',
+  kecamatan: 'Kecamatan Contoh',
+  kabupaten: 'Kabupaten Contoh',
   provinsi: 'Jawa Timur',
   tahun: '2025',
-  kepala: 'H. Wachid, S.Ag',
+  kepala: 'Nama Kepala Madrasah, S.Pd',
   nipKepala: '',
 }
 
@@ -200,8 +201,8 @@ function toast(message) {
 /* Petunjuk singkat agar isian mudah dipahami pengguna awam. */
 const FIELD_HINTS = {
   jenisKelamin: 'Tulis Laki-laki atau Perempuan.',
-  tempatLahir: 'Contoh: Jombang',
-  tanggalLahir: 'Contoh: 24 Desember 1997',
+  tempatLahir: 'Contoh: Surabaya',
+  tanggalLahir: 'Contoh: 1 Januari 1990',
   pangkat: 'Tulis lengkap dengan kode golongan, contoh: Penata Muda, III/a',
   tmtGol: 'Contoh: 1 Juli 2025',
   tmtGuru: 'Contoh: 1 Juli 2025',
@@ -872,7 +873,7 @@ function updateChrome() {
 /* ------------------------------------------------------------------ */
 
 const RESET_MESSAGE = 'Apakah Anda ingin mengosongkan semua isian di semua instrumen penilaian? ' +
-  '(Apabila ada masalah dengan aplikasi ini, silahkan hubungi nomor WA: 089508058634 a.n. Sarjono)'
+  '(Data identitas dan pengaturan tidak ikut dihapus)'
 
 function resetAll() {
   if (!window.confirm(RESET_MESSAGE)) return
