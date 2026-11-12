@@ -1,0 +1,8061 @@
+[
+ {
+  "id": "gmp",
+  "sheet": "PKKM_GMP",
+  "title": "INSTRUMEN PENILAIAN KINERJA GURU",
+  "label": "Guru Mata Pelajaran",
+  "sections": [
+   {
+    "number": 1,
+    "title": "Mengenal karakteristik peserta didik",
+    "items": [
+     {
+      "no": "1",
+      "text": "Guru dapat mengidentifikasi karakteristik belajar setiap peserta didik di kelasnya",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "2",
+      "text": "Guru memastikan bahwa semua peserta didik mendapatkan kesempatan yang sama untuk berpartisipasi aktif dalam kegiatan pembelajaran",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "3",
+      "text": "Guru mencoba mengetahui penyebab penyimpangan perilaku peserta didik untuk mencegah agar perilaku tersebut tidak merugikan peserta didik lainnya",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     }
+    ],
+    "max": 6
+   },
+   {
+    "number": 2,
+    "title": "Menguasai teori belajar dan prinsip-prinsip pembelajaran",
+    "items": [
+     {
+      "no": "1",
+      "text": "Guru memberi kesempatan kepada peserta didik untuk menguasai materi pembelajaran sesuai usia dan kemampuan belajarnya melalui pengaturan proses pembelajaran dan aktivitas yang bervariasi",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "2",
+      "text": "Guru selalu memastikan tingkat pemahaman peserta didik terhadap materi pembelajaran tertentu dan menyesuaikan aktivitas pembelajaran berikutnya berdasarkan tingkat pemahaman tersebut",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "3",
+      "text": "Guru dapat menjelaskan alasan pelaksanaan kegiatan/aktivitas yang dilakukannya, baik yang sesuai maupun yang berbeda dengan rencana, terkait keberhasilan pembelajaran",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "4",
+      "text": "Guru menggunakan berbagai teknik untuk memotiviasi kemauan belajar peserta didik",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "5",
+      "text": "Guru merencanakan kegiatan pembelajaran yang saling terkait satu sama lain, dengan memperhatikan tujuan pembelajaran maupun proses belajar peserta didik",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "6",
+      "text": "Guru memperhatikan respon peserta didik yang belum/kurang memahami materi pembelajaran yang diajarkan dan menggunakannya untuk memperbaiki rancangan pembelajaran berikutnya",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     }
+    ],
+    "max": 12
+   },
+   {
+    "number": 3,
+    "title": "Pengembangan kurikulum",
+    "items": [
+     {
+      "no": "1",
+      "text": "Guru dapat menyusun silabus yang sesuai dengan kurikulum",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "2",
+      "text": "Guru merancang rencana pembelajaran yang sesuai dengan silabus untuk membahas materi ajar tertentu agar peserta didik dapat mencapai kompetensi dasar yang ditetapkan",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "3",
+      "text": "Guru mengembangkan materi pembelajaran untuk mencapai kompetensi dasar",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "4",
+      "text": "Guru mengikuti urutan materi pembelajaran dengan memperhatikan tujuan pembelajaran",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "5",
+      "text": "Guru memilih materi pembelajaran yang: a) sesuai dengan tujuan pembelajaran, b) tepat dan mutakhir, c) sesuai dengan usia dan tingkat kemampuan belajar peserta didik, dan d) dapat dilaksanakan di kelas e) sesuai dengan konteks kehidupan sehari-hari peserta didik",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     }
+    ],
+    "max": 10
+   },
+   {
+    "number": 4,
+    "title": "Kegiatan Pembelajaran yang Mendidik",
+    "items": [
+     {
+      "no": "1",
+      "text": "Guru melaksanakan aktivitas pembelajaran sesuai dengan rancangan yang telah disusun secara lengkap (termasuk pemberian informasi baru) yang mengindikasikan bahwa guru mengerti tentang tujuannya",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "2",
+      "text": "Guru melaksanakan aktivitas pembelajaran yang bertujuan untuk membantu proses belajar peserta didik, bukan untuk menguji sehingga membuat peserta didik merasa tertekan",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "3",
+      "text": "Guru menyikapi kesalahan yang dilakukan peserta didik sebagai tahapan proses pembelajaran, bukan semata-mata kesalahan yang harus dikoreksi. Misalnya: dengan mengetahui terlebih dahulu peserta didik lain yang setuju/tidak setuju dengan jawaban tersebut, sebelum memberikan penjelasan tentang jawaban yang benar",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "4",
+      "text": "Guru melaksanakan kegiatan pembelajaran sesuai isi kurikulum dan mengkaitkannya dengan konteks kehidupan sehari-hari peserta didik",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "5",
+      "text": "Guru melakukan aktivitas pembelajaran secara bervariasi dengan mempertimbangkan waktu, kondisi kelas, usia dan tingkat kemampuan belajar dan mempertahankan perhatian peserta didik",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "6",
+      "text": "Guru mengelola kelas dengan efektif tanpa mendominasi atau sibuk dengan kegiatannya sendiri agar semua waktu peserta dapat dimanfaatkan secara produktif",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "7",
+      "text": "Guru memberikan banyak kesempatan kepada peserta didik untuk bertanya, mempraktikkan dan berinteraksi dengan peserta didik lain",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "8",
+      "text": "Guru mengatur pelaksanaan aktivitas pembelajaran secara sistematis untuk membantu proses belajar peserta didik. Sebagai contoh: guru menambah informasi baru setelah mengevaluasi pemahaman peserta didik terhadap materi sebelumnya",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "9",
+      "text": "Guru menggunakan alat bantu mengajar, dan/atau audio-visual (termasuk TIK) untuk meningkatkan motivasi belajar peserta didik dalam mencapai tujuan pembelajaran",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     }
+    ],
+    "max": 18
+   },
+   {
+    "number": 5,
+    "title": "Memahami dan mengembangkan potensi",
+    "items": [
+     {
+      "no": "1",
+      "text": "Guru menganalisis hasil belajar berdasarkan segala bentuk penilaian terhadap setiap peserta didik untuk mengetahui tingkat kemajuan masing-masing",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "2",
+      "text": "Guru merancang dan melaksanakan aktivitas pembelajaran yang mendorong peserta didik untuk belajar sesuai dengan kecakapan dan pola belajar masing-masing",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "3",
+      "text": "Guru merancang dan melaksanakan aktivitas pembelajaran untuk memunculkan daya kreativitas dan kemampuan berfikir kritis peserta didik",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "4",
+      "text": "Guru secara aktif membantu peserta didik dalam proses pembelajaran dengan memberikan perhatian kepada setiap individu",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "5",
+      "text": "Guru dapat mengidentifikasi dengan benar tentang bakat, minat, potensi, dan kesulitan belajar",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     }
+    ],
+    "max": 10
+   },
+   {
+    "number": 6,
+    "title": "Komunikasi dengan peserta didik",
+    "items": [
+     {
+      "no": "1",
+      "text": "Guru menggunakan pertanyaan untuk mengetahui pemahaman dan menjaga partisipasi peserta didik, termasuk memberikan pertanyaan terbuka yang menuntut peserta didik untuk menjawab dengan ide dan pengetahuan mereka",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "2",
+      "text": "Guru memberikan perhatian dan mendengarkan semua pertanyaan dan tanggapan peserta didik, tanpa menginterupsi, kecuali jika diperlukan untuk membantu atau mengklarifikasi pertanyaan/tanggapan tersebut",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "3",
+      "text": "Guru menanggapi pertanyaan peserta didik secara tepat, benar, dan mutakhir, sesuai tujuan pembelajaran dan isi kurikulum, tanpa mempermalukannya",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "4",
+      "text": "Guru menyajikan kegiatan pembelajaran yang dapat menumbuhkan kerja sama yang baik antar pesertadidik",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "5",
+      "text": "Guru mendengarkan dan memberikan perhatian terhadap semua jawaban peserta didik",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     }
+    ],
+    "max": 10
+   },
+   {
+    "number": 7,
+    "title": "Penilaian dan evaluasi",
+    "items": [
+     {
+      "no": "1",
+      "text": "Guru menyusun alat penilaian yang sesuai dengan tujuan pembelajaran untuk mencapai kompetensi tertentu seperti yang tertulis dalam RPP",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "2",
+      "text": "Guru melaksanakan penilaian dengan berbagai teknik dan jenis penilaian, selain penilaian formal yang dilaksanakan sekolah, dan mengumumkan hasil serta implikasinya kepada peserta didik, tentang tingkat pemahaman terhadap materi pembelajaran yang telah dan akan dipelajari",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "3",
+      "text": "Guru menganalisis hasil penilaian untuk mengidentifikasi topik/kompetensi dasar yang sulit sehingga diketahui kekuatan dan kelemahan masing-masing peserta didik untuk keperluan remedial dan pengayaan",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "4",
+      "text": "Guru memanfaatkan masukan dari peserta didik dan merefleksikannya untuk meningkatkan pembelajaran selanjutnya, dan dapat membuktikannya melalui catatan, jurnal pembelajaran, rancangan pembelajaran, materi tambahan, dan sebagainya",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     }
+    ],
+    "max": 8
+   },
+   {
+    "number": 8,
+    "title": "Bertindak sesuai dengan norma agama, hukum, sosial dan kebudayaan nasional Indonesia",
+    "items": [
+     {
+      "no": "1",
+      "text": "Guru menghargai dan mempromosikan prinsip-prinsip Pancasila sebagai dasar ideologi dan etika bagi semua warga Indonesia",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "2",
+      "text": "Guru mengembangkan kerjasama dan membina kebersamaan dengan teman sejawat tanpa memperhatikan perbedaan yang ada (misalnya: suku, agama, dan gender)",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     }
+    ],
+    "max": 4
+   },
+   {
+    "number": 9,
+    "title": "Menunjukkan pribadi yang dewasa dan teladan",
+    "items": [
+     {
+      "no": "1",
+      "text": "Guru bertingkah laku sopan dalam berbicara, berpenampilan, dan berbuat terhadap semua peserta didik, orang tua, dan teman sejawat",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "2",
+      "text": "Guru mau membagi pengalamannya dengan teman sejawat, termasuk mengundang mereka untuk mengobservasi cara mengajarnya dan memberikan masukan",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "3",
+      "text": "Guru mampu mengelola pembelajaran yang membuktikan bahwa guru dihormati oleh peserta didik, sehingga semua peserta didik selalu memperhatikan guru dan berpartisipasi aktif dalam proses pembelajaran",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "4",
+      "text": "Guru bersikap dewasa dalam menerima masukan dari peserta didik dan memberikan kesempatan kepada peserta didik untuk berpartisipasi dalam proses pembelajaran",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "5",
+      "text": "Guru berperilaku baik untuk mencitrakan nama baik madrasah",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     }
+    ],
+    "max": 10
+   },
+   {
+    "number": 10,
+    "title": "Etos kerja, tanggung jawab yang tinggi, dan rasa bangga menjadi guru",
+    "items": [
+     {
+      "no": "1",
+      "text": "Guru mengawali dan mengakhiri pembelajaran dengan tepat waktu",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "2",
+      "text": "Jika guru harus meninggalkan kelas, guru mengaktifkan siswa dengan melakukan hal-hal produktif terkait dengan mata pelajaran, dan meminta guru piket atau guru lain untuk mengawasi kelas",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "3",
+      "text": "Guru memenuhi jam mengajar dan dapat melakukan semua kegiatan lain di luar jam mengajar berdasarkan ijin dan persetujuan pengelola madrasah",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "4",
+      "text": "Guru meminta ijin dan memberitahu lebih awal, dengan memberikan alasan dan bukti yang sah jika tidak menghadiri kegiatan yang telah direncanakan, termasuk proses pembelajaran di kelas",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "5",
+      "text": "Guru menyelesaikan semua tugas administratif dan non-pembelajaran dengan tepat waktu sesuai standar yang ditetapkan",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "6",
+      "text": "Guru memanfaatkan waktu luang selain mengajar untuk kegiatan yang produktif terkait dengan tugasnya",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "7",
+      "text": "Guru memberikan kontribusi terhadap pengembangan sekolah dan mempunyai prestasi yang berdampak positif terhadap nama baik sekolah",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "8",
+      "text": "Guru merasa bangga dengan profesinya sebagai guru",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     }
+    ],
+    "max": 16
+   },
+   {
+    "number": 11,
+    "title": "Bersikap inklusif, bertindak objektif, serta tidak diskriminatif",
+    "items": [
+     {
+      "no": "1",
+      "text": "Guru memperlakukan semua peserta didik secara adil, memberikan perhatian dan bantuan sesuai kebutuhan masing-masing, tanpa memperdulikan faktor personal",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "2",
+      "text": "Guru menjaga hubungan baik dan peduli dengan teman sejawat (bersifat inklusif), serta berkontribusi positif terhadap semua diskusi formal dan informal terkait dengan pekerjaannya",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "3",
+      "text": "Guru sering berinteraksi dengan peserta didik dan tidak membatasi perhatiannya hanya pada kelompok tertentu (misalnya: peserta didik yang pandai, kaya, berasal dari daerah yang sama dengan guru)",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     }
+    ],
+    "max": 6
+   },
+   {
+    "number": 12,
+    "title": "Komunikasi dengan sesama guru, tenaga pendidikan, orang tua peserta didik, dan masyarakat",
+    "items": [
+     {
+      "no": "1",
+      "text": "Guru menyampaikan informasi tentang kemajuan, kesulitan, dan potensi peserta didik kepada orang tuanya, baik dalam pertemuan formal maupun tidak formal antara guru dan orang tua, teman sejawat, dan dapat menunjukkan buktinya",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "2",
+      "text": "Guru ikut berperan aktif dalam kegiatan di luar pembelajaran yang diselenggarakan oleh sekolah dan masyarakat dan dapat memberikan bukti keikutsertaannya",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     }
+    ],
+    "max": 4
+   },
+   {
+    "number": 13,
+    "title": "Penguasaan materi struktur konsep dan pola pikir keilmuan yang mendukung mata pelajaran yang diampu",
+    "items": [
+     {
+      "no": "1",
+      "text": "Guru mengintegrasikan materi pembelajaran dengan konsep- konsep yang terdapat di dalam Al Qur’an dan Hadits",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "2",
+      "text": "Guru melakukan pemetaan standar kompetensi dan kompetensi dasar untuk mata pelajaran yang diampunya, untuk mengidentifikasi materi pembelajaran yang dianggap sulit, melakukan perencanaan dan pelaksanaan pembelajaran, dan memperkirakan alokasi waktu yang diperlukan",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "3",
+      "text": "Guru menyusun materi, perencanaan dan pelaksanaan pembelajaran yang berisi informasi yang tepat, mutakhir, dan yang membantu peserta didik untuk memahami konsep materi pembelajaran",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     }
+    ],
+    "max": 6
+   },
+   {
+    "number": 14,
+    "title": "Mengembangkan keprofesian melalui tindakan reflektif",
+    "items": [
+     {
+      "no": "1",
+      "text": "Guru melakukan evaluasi diri secara spesifik, lengkap, dan didukung dengan contoh pengalaman diri sendiri",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "2",
+      "text": "Guru memiliki jurnal pembelajaran, catatan masukan dari kolega atau hasil penilaian proses pembelajaran sebagai bukti yang menggambarkan kinerjanya",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "3",
+      "text": "Guru memanfaatkan bukti gambaran kinerjanya untuk mengembangkan perencanaan dan pelaksanaan pembelajaran selanjutnya dalam program Pengembangan Keprofesian Berkelanjutan (PKB)",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "4",
+      "text": "Guru dapat mengaplikasikan pengalaman PKB dalam perencanaan, pelaksanaan, penilaian pembelajaran dan tindak lanjutnya",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "5",
+      "text": "Guru melakukan penelitian, mengembangkan karya inovasi, mengikuti kegiatan ilmiah (misalnya seminar, konferensi), dan aktif dalam melaksanakan PKB",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "6",
+      "text": "Guru dapat memanfaatkan TIK dalam berkomunikasi dan pelaksanaan PKB",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     }
+    ],
+    "max": 12
+   }
+  ],
+  "itemCount": 66,
+  "options": [
+   0.0,
+   1.0,
+   2.0
+  ]
+ },
+ {
+  "id": "bk",
+  "sheet": "PKKM_BK",
+  "title": "INSTRUMEN PENILAIAN KINERJA GURU BK",
+  "label": "Guru Bimbingan dan Konseling",
+  "sections": [
+   {
+    "number": 1,
+    "title": "Menguasai teori dan praksis pendidikan",
+    "items": [
+     {
+      "no": "1",
+      "text": "Guru BK/Konselor dapat menunjukkan dalam perencanaan layanan BK, sesuai dengan landasan dan prinsip-prinsip pendidikan serta pembelajaran yang aktif, kreatif, mandiri, dan berpusat pada peserta didik/konseli",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "2",
+      "text": "Guru BK/Konselor dapat menunjukkan dalam perencanaan layanan BK, sesuai dengan usia, tahap perkembangan, dan kebutuhan peserta didik/ konseli",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "3",
+      "text": "Guru BK/Konselor dapat menunjukkan dalam perencanaan layanan BK, sesuai dengan keragaman latar belakang budaya, ekonomi, dan sosial peserta didik/konseli",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     }
+    ],
+    "max": 6
+   },
+   {
+    "number": 2,
+    "title": "Mengaplikasikan perkembangan fisiologis dan psikologis serta perilaku konseli",
+    "items": [
+     {
+      "no": "1",
+      "text": "Peserta didik/konseli diberi kesempatan dalam memperoleh layanan BK sesuai dengan jalur satuan pendidikan formal di lingkup kementerian agama",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "2",
+      "text": "Peserta didik/konseli diberi kesempatan dalam memperoleh layanan BK sesuai dengan kebutuhan bakat, minat, dan potensi pribadi",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "3",
+      "text": "Peserta didik/konseli diberi kesempatan dalam memperoleh layanan BK sesuai dengan harapan untuk melanjutkan pendidikan dan pilihan karier",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     }
+    ],
+    "max": 6
+   },
+   {
+    "number": 3,
+    "title": "Menguasai esensi layanan BK dalam jalur, jenis, dan jenjang satuan pendidikan",
+    "items": [
+     {
+      "no": "1",
+      "text": "Layanan BK yang diprogramkan oleh guru BK/ Konselor telah memenuhi esensi layanan pada jalur satuan pendidikan formal, nonformal dan informal",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "2",
+      "text": "Layanan BK yang diprogramkan oleh guru BK/ Konselor telah memenuhi esensi layanan pada jenis satuan pendidikan umum, kejuruan, keagamaan, dan kekhususan",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "3",
+      "text": "Layanan BK yang diprogramkan oleh guru BK/ Konselor telah memenuhi esensi layanan pada jenjang Ibtidaiyah, Tsanawiyah, dan Aliyah",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     }
+    ],
+    "max": 6
+   },
+   {
+    "number": 4,
+    "title": "Beriman dan bertakwa kepada Tuhan Yang Maha Esa",
+    "items": [
+     {
+      "no": "1",
+      "text": "Guru BK/Konselor berpenampilan rapih dan bersih",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "2",
+      "text": "Guru BK/Konselor berbicara dengan santun dan jujur kepada peserta didik/konseli",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "3",
+      "text": "Guru BK/Konselor bersikap dan mendorong kepada peserta didik/konseli untuk bersikap toleran",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "4",
+      "text": "Guru BK/Konselor memperlihatkan konsistensi dan memotivasi peserta didik/konseli dalam melaksanakan ibadah",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     }
+    ],
+    "max": 8
+   },
+   {
+    "number": 5,
+    "title": "Menghargai dan menjunjung tinggi nilai-nilai kemanusiaan, individualitas dan kebebasan memilih",
+    "items": [
+     {
+      "no": "1",
+      "text": "Guru BK/Konselor merencanakan layanan BK yang mengacu kepada pengaplikasian pandangan dinamis tentang manusia sebagai mahluk bermoral spiritual, sosial, & individu",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "2",
+      "text": "Pelayanan BK yang dirancang oleh Guru BK/Konselor mendorong kepada pengembangan potensi positif individu",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "3",
+      "text": "Rancangan pelayanan BK mengacu kepada kebutuhan dan masukan balik peserta didik/konseli",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "4",
+      "text": "Pelayanan BK dirancang untuk mengembangkan sikap toleran dalam menjunjung hak azasi manusia pada peserta didik/konseli",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     }
+    ],
+    "max": 8
+   },
+   {
+    "number": 6,
+    "title": "Menunjukkan integritas dan stabilitas kepribadian yang kuat",
+    "items": [
+     {
+      "no": "1",
+      "text": "Guru BK/Konselor menunjukkan kepribadian, kestabilan emosi dan perilaku yang terpuji, jujur, sabar, ramah, dan konsisten",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "2",
+      "text": "Guru BK/Konselor menunjukkan kepekaan dan bersikap empati terhadap keragaman dan perubahan",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "3",
+      "text": "Guru BK/Konselor menampilkan toleransi tinggi terhadap peserta didik/konseli yang menghadapi tress dan frustasi",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     }
+    ],
+    "max": 6
+   },
+   {
+    "number": 7,
+    "title": "Menampilkan kinerja berkualitas tinggi",
+    "items": [
+     {
+      "no": "1",
+      "text": "Guru BK/Konselor memotivasi peserta didik/konseli untuk berpartisipasi aktif dalam layanan BK yang diberikan",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "2",
+      "text": "Guru BK/Konselor melaksanakan pelayanan BK yang efektif sesuai dengan rancangan untuk mencapai tujuan pelayanan BK dalam waktu yang tersedia",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "3",
+      "text": "Guru BK/Konselor melaksanakan tugas layanan BK secara mandiri, disiplin, dan semangat agar peserta didik/konseli berpartisipasi secara aktif",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     }
+    ],
+    "max": 6
+   },
+   {
+    "number": 8,
+    "title": "Mengimplementasikan kolaborasi internal di tempat bekerja",
+    "items": [
+     {
+      "no": "1",
+      "text": "Guru BK/Konselor merencanakan pelayanan BK dengan menyertakan pihak-pihak terkait di madrasah",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "2",
+      "text": "Guru BK/Konselor melakukan kerjasama dengan pihak pihak terkait dalam melaksanakan pelayanan BK di madrasah",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "3",
+      "text": "Guru BK/Konselor dapat menunjukkan bukti bagaimana menjelaskan program dan hasil layanan BK kepada pihak-pihak terkait di sekolah",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "4",
+      "text": "Guru BK/Konselor dapat menunjukkan bukti permintaan guru lain untuk membantu penyelesaian permasalahan layanan",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     }
+    ],
+    "max": 8
+   },
+   {
+    "number": 9,
+    "title": "Berperan dalam organisasi dan kegiatan profesi BK",
+    "items": [
+     {
+      "no": "1",
+      "text": "Guru BK/Konselor berpartisipasi aktif dalam proses pengembangan diri melalui organisasi profesi guru BK/Konselor",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "2",
+      "text": "Guru BK/Konselor dapat memanfaatkan organisasi profesi BK/Konselor untuk membangun kolaborasi dalam pengembangan program BK",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     }
+    ],
+    "max": 4
+   },
+   {
+    "number": 10,
+    "title": "Mengimplementasikan kolaborasi antarprofesi",
+    "items": [
+     {
+      "no": "1",
+      "text": "Guru BK/Konselor dapat menunjukkan bukti melakukan interaksi dengan organisasi profesi lain",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "2",
+      "text": "Guru BK/Konselor dapat berkolaborasi dengan institusi atau profesi lain untuk mencapai tujuan pelayanan BK",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "3",
+      "text": "Guru BK/Konselor dapat melakukan referal kepada ahli lain untuk membantu penyelesaian permasalahan peserta didik/konseli sesuai kebutuhan",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     }
+    ],
+    "max": 6
+   },
+   {
+    "number": 11,
+    "title": "Menguasai konsep dan praksis penilaian (assessment) untuk memahami kondisi, kebutuhan, dan masalah konseli",
+    "items": [
+     {
+      "no": "1",
+      "text": "Guru BK/Konselor dapat mengembangkan instrumen non-tes (pedoman wawancara, angket, inventori, dll) untuk keperluan pelayanan BK",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "2",
+      "text": "Guru BK/Konselor dapat mengaplikasikan instrumen non-tes untuk mengungkapkan kondisi aktual peserta didik/konseli berkaitan dengan lingkungan",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "3",
+      "text": "Guru BK/Konselor dapat mendeskripsikan penilaian yang digunakan dalam pelayanan BK yang sesuai dengan kebutuhan peserta didik/konseli",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "4",
+      "text": "Guru BK/Konselor dapat memilih jenis penilaian (Instrumen Tugas Perkembangan/ITP, Alat Ungkap Masalah/AUM, Daftar Cek Masalah/DCM, atau instrumen non-tes lainnya) yang sesuai dengan kebutuhan layanan bimbingan dan konseling",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "5",
+      "text": "Guru BK/Konselor dapat mengadministrasikan penilaian (merencanakan, melaksanakan, mengolah data) untuk mengungkapkan kemampuan dasar dan kecenderungan pribadi peserta didik/konseli",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "6",
+      "text": "Guru BK/Konselor dapat mengadministrasikan teknik penilaian (data catatan pribadi, kemampuan akademik, hasil evaluasi belajar, dan hasil psikotes) untuk mengungkap masalah peserta didik/konseli",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "7",
+      "text": "Guru BK/Konselor dapat menampilkan tanggung jawab profesional sesuai dengan azas BK (misalnya kerahasiaan, keterbukaan, kekinian.) dalam praktik penilaian dan penyampaian hasilnya",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     }
+    ],
+    "max": 14
+   },
+   {
+    "number": 12,
+    "title": "Menguasai kerangka teoretik dan praksis BK",
+    "items": [
+     {
+      "no": "1",
+      "text": "Guru BK/Konselor dapat mengaplikasikan hakikat pelayanan BK (tujuan, prinsip, azas, fungsi, dan landasan)",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "2",
+      "text": "Guru BK/Konselor dapat menentukankan arah profesi BK (peran sebagai guru BK/konselor)",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "3",
+      "text": "Guru BK/Konselor dapat mengaplikasikan dasar-dasar pelayanan BK",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "4",
+      "text": "Guru BK/Konselor dapat mengaplikasikan pelayanan BK sesuai kondisi dan tuntutan wilayah kerja",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "5",
+      "text": "Guru BK/Konselor dapat mengaplikasikan pendekatan /model/jenis pelayanan dan kegiatan pendukung bimbingan dan konseling",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "6",
+      "text": "Guru BK/Konselor dapat mengaplikasikan praktik format pelayanan BK (klasikal, kelompok dan individual)",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     }
+    ],
+    "max": 12
+   },
+   {
+    "number": 13,
+    "title": "Merancang program BK",
+    "items": [
+     {
+      "no": "1",
+      "text": "Guru BK/Konselor dapat menganalisis kebutuhan peserta didik/konseli",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "2",
+      "text": "Guru BK/Konselor dapat menyusun program pelayanan BK yang berkelanjutan berdasar kebutuhan peserta didik/konseli secara komprehensif dengan pendekatan perkembangan",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "3",
+      "text": "Guru BK/Konselor dapat menyusun rencana pelaksanaan program pelayanan BK",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "4",
+      "text": "Guru BK/Konselor dapat merencanakan sarana dan biaya penyelenggaraan program pelayanan BK",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     }
+    ],
+    "max": 8
+   },
+   {
+    "number": 14,
+    "title": "Mengimplementasikan program BK yang komprehensif",
+    "items": [
+     {
+      "no": "1",
+      "text": "Guru BK/Konselor dapat melaksanakan program pelayanan BK",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "2",
+      "text": "Guru BK/Konselor dapat melaksanakan pendekatan kolaboratif dengan pihak terkait dalam pelayanan BK",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "3",
+      "text": "Guru BK/Konselor dapat memfasilitasi perkembangan akademik, karier, personal/ pribadi, dan sosial peserta didik/konseli",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "4",
+      "text": "Guru BK/Konselor dapat mengelola sarana dan biaya penyelenggaraan program pelayanan BK",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     }
+    ],
+    "max": 8
+   },
+   {
+    "number": 15,
+    "title": "Menilai proses dan hasil kegiatan BK",
+    "items": [
+     {
+      "no": "1",
+      "text": "Guru BK/Konselor dapat melakukan evaluasi proses dan hasil program pelayanan BK",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "2",
+      "text": "Guru BK/Konselor dapat melakukan penyesuaian proses pelayanan BK",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "3",
+      "text": "Guru BK/Konselor dapat menginformasikan hasil pelaksanaan evaluasi pelayanan BK kepada pihak terkait",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "4",
+      "text": "Guru BK/Konselor dapat menggunakan hasil pelaksanaan evaluasi untuk merevisi dan mengembangkan program pelayanan BK",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     }
+    ],
+    "max": 8
+   },
+   {
+    "number": 16,
+    "title": "Memiliki kesadaran dan komitmen terhadap etika profesional",
+    "items": [
+     {
+      "no": "1",
+      "text": "Guru BK/Konselor dapat memberdayakan kekuatan pribadi, dan keprofesionalan guru BK/konselor",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "2",
+      "text": "Guru BK/Konselor dapat meminimalisir keterbatasan pribadi dan faktor pendukung pelaksanaan pelayanan BK",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "3",
+      "text": "Guru BK/Konselor dapat menyelenggarakan pelayanan BK sesuai dengan kewenangan dan kode etik profesional guru BK/konselor",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "4",
+      "text": "Guru BK/Konselor dapat mempertahankan objektivitas dan menjaga agar tidak larut dengan masalah peserta didik/konseli",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "5",
+      "text": "Guru BK/Konselor dapat melaksanakan layanan pendukung sesuai kebutuhan peserta didik/konseli (misalnya alih tangan kasus, kunjungan rumah, konferensi kasus, instrumen bimbingan, himpunan data)",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "6",
+      "text": "Guru BK/Konselor dapat menghargai identitas profesional dan pengembangan profesi",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "7",
+      "text": "Guru BK/Konselor dapat mendahulukan kepentingan peserta didik/konseli daripada kepentingan pribadi guru BK/konselor",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     }
+    ],
+    "max": 14
+   },
+   {
+    "number": 17,
+    "title": "Menguasai konsep dan praksis penelitian dalam BK",
+    "items": [
+     {
+      "no": "1",
+      "text": "Guru BK/Konselor dapat mendeskripsikan jenis dan metode penelitian dalam BK",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "2",
+      "text": "Guru BK/Konselor mampu merancang penelitian dalam BK",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "3",
+      "text": "Guru BK/Konselor dapat melaksanakan penelitian dalam BK",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "4",
+      "text": "Guru BK/Konselor dapat memanfaatkan hasil penelitian dalam BK dengan mengakses jurnal yang relevan",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     }
+    ],
+    "max": 8
+   }
+  ],
+  "itemCount": 68,
+  "options": [
+   0.0,
+   1.0,
+   2.0
+  ]
+ },
+ {
+  "id": "gtik",
+  "sheet": "PKKM-GTIK",
+  "title": "INSTRUMEN PENILAIAN KINERJA GURU TIK",
+  "label": "Guru TIK",
+  "sections": [
+   {
+    "number": 1,
+    "title": "Mengenal karakteristik peserta didik",
+    "items": [
+     {
+      "no": "1",
+      "text": "Guru TIK dapat mengidentifikasi karakteristik belajar setiap peserta didik yang dibimbingnya",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "2",
+      "text": "Guru TIK dapat mengelola kelas agar semua Siswa mendapatkan kesempatan yang sama untuk berpartisipasi aktif dalam kegiatan bimbingan TIK",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "3",
+      "text": "Guru TIK membantu mengembangkan potensi dan mengatasi kekurangan peserta didik",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "4",
+      "text": "Guru TIK memperhatikan peserta didik agar dapat mengikuti aktivitas bimbingan, sehingga peserta didik tersebut tidak termarginalkan (tersisihkan/diolok-olok/ minder)",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "5",
+      "text": "Guru TIK dapat mengidentifikasi karakteristik belajar setiap peserta didik yang dibimbingnya",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     }
+    ],
+    "max": 10
+   },
+   {
+    "number": 2,
+    "title": "Merancang Program Guru TIK",
+    "items": [
+     {
+      "no": "1",
+      "text": "Guru TIK merancang program bimbingan TIK (analisis kebutuhan, program tahunan, program semester, silabus, dan rencana pelaksanaan bimbingan TIK, rancangan evaluasi)",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "2",
+      "text": "Guru TIK merancang program fasilitasi TIK untuk guru (analisis kebutuhan guru, penjadwalan, bentuk kegiatan)",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "3",
+      "text": "Guru TIK merancang program fasilitasi TIK untuk tenaga kependidikan (analisis kebutuhan guru, penjadwalan, bentuk kegiatan)",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "4",
+      "text": "Guru TIK merancang program fasilitasi TIK untuk Madrasah mengenai pembelajaran, penilaian, dan Ujian Berbasis Komputer dalam Jaringan",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     }
+    ],
+    "max": 8
+   },
+   {
+    "number": 3,
+    "title": "Melaksanakan Kegiatan Pembimbingan TIK",
+    "items": [
+     {
+      "no": "1",
+      "text": "Guru TIK melaksanakan pembimbingan dengan menyenangkan peserta didik",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "2",
+      "text": "Guru TIK melaksanakan pembimbingan yang menantang keingintahuan peserta didik",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "3",
+      "text": "Guru TIK melaksanakan pembimbingan TIK secara klasikal/kelompok atau individu",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "4",
+      "text": "Guru TIK mengecek kemajuan pemahaman dan keterampilan peserta didik terhadap materi pembimbingan TIK sebelum melanjutkan ke tahap/topik berikutnya",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "5",
+      "text": "Guru TIK melaksanakan pembimbingan untuk mencari, mengolah, menyimpan, menyajikan, serta menyebarkan data dan informasi dalam berbagai cara untuk mendukung kelancaran proses belajar Siswa",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "6",
+      "text": "Guru TIK memperhatikan setiap pertanyaan /jawaban peserta didik serta mengarahkannya untuk memaksimalkan pemahaman materi bimbingan",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "7",
+      "text": "Guru TIK melaksanakan penilaian proses dan/atau penilaian hasil pembimbingan TIK",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     }
+    ],
+    "max": 14
+   },
+   {
+    "number": 4,
+    "title": "Bertindak sesuai dengan norma agama, hukum, sosial dan kebudayaan nasional",
+    "items": [
+     {
+      "no": "1",
+      "text": "Guru TIK menghargai, mengamalkan, dan mengembangkan nilai-nilai Pancasila sebagai dasar ideologi dan etika serta norma agama bagi semua warga Indonesia",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "2",
+      "text": "Guru TIK memiliki rasa persatuan dan kesatuan sebagai bangsa Indonesia",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "3",
+      "text": "Guru TIK Mengembangkan kerja sama dan membina kebersamaan dengan teman sejawat sesuai dengan kondisi dan keberadaan masing-masing",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "4",
+      "text": "Guru TIK saling menghormati dan menghargai teman sejawat sesuai dengan kondisi dan keberadaan masing-masing",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "5",
+      "text": "Guru TIK bertingkah laku sopan dalam berbicara, berpenampilan, dan berbuat terhadap semua peserta didik, orang tua, dan teman sejawat",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "6",
+      "text": "Guru TIK bersikap dewasa dalam menerima masukan dari peserta didik dan memberikan kesempatan kepada peserta didik untuk berpartisipasi dalam proses bimbingan",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "7",
+      "text": "Guru TIK berperilaku baik sejalan dengan norma agama untuk mencitrakan nama baik Madrasah",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     }
+    ],
+    "max": 14
+   },
+   {
+    "number": 5,
+    "title": "Memiliki etos kerja, tanggung jawab yang tinggi, rasa bangga menjadi guru",
+    "items": [
+     {
+      "no": "1",
+      "text": "Guru TIK menyelesaikan semua tugas administratif pembimbingan TIK dan atau tugas non- pembimbingan TIK dengan tepat waktu sesuai standar yang ditetapkan",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "2",
+      "text": "Guru TIK memanfaatkan waktu luang selain mengajar untuk kegiatan yang produktif terkait dengan tugasnya",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "3",
+      "text": "Guru TIK memberikan kontribusi terhadap pengembangan madrasah dan mempunyai prestasi yang berdampak positif terhadap nama baik madrasah",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "4",
+      "text": "Guru TIK merasa bangga dengan profesinya sebagai guru",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     }
+    ],
+    "max": 8
+   },
+   {
+    "number": 6,
+    "title": "Bersikap inklusif, bertindak obyektif, serta tidak diskriminatif",
+    "items": [
+     {
+      "no": "1",
+      "text": "Guru TIK memperlakukan semua peserta didik secara adil, memberikan perhatian dan bantuan sesuai kebutuhan masing-masing secara objektif",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "2",
+      "text": "Guru TIK sering berinteraksi dengan peserta didik dan tidak membatasi perhatiannya hanya pada kelompok tertentu (misalnya: peserta didik yang pandai, kaya, berasal dari daerah yang sama dengan guru)",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "3",
+      "text": "Guru TIK menjaga hubungan baik dan peduli dengan teman sejawat (bersifat inklusif), serta berkontribusi positif terhadap semua diskusi formal dan informal terkait dengan pekerjaannya",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     }
+    ],
+    "max": 6
+   },
+   {
+    "number": 7,
+    "title": "Komunikasi dan kolaborasi dengan sesama guru, tenaga kependidikan, orang tua peserta didik, dan masyarakat",
+    "items": [
+     {
+      "no": "1",
+      "text": "Guru TIK menyampaikan informasi tentang kemajuan, kesulitan, dan potensi peserta didik kepada orang tuanya",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "2",
+      "text": "Guru TIK ikut berperan aktif dalam kegiatan di luar pembimbingan TIK yang diselenggarakan oleh madrasah, komunitas profesi dan masyarakat serta dapat memberikan bukti keikutsertaannya",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "3",
+      "text": "Guru TIK memperhatikan madrasah sebagai bagian dari masyarakat, berkomunikasi dengan masyarakat sekitar",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     }
+    ],
+    "max": 6
+   },
+   {
+    "number": 8,
+    "title": "Menguasai konsep, kompetensi, materi TIK, dan pembimbingan TIK",
+    "items": [
+     {
+      "no": "1",
+      "text": "Guru TIK melakukan analisis/pemetaan kompetensi TIK untuk mengidentifikasi materi TIK sesuai kebutuhan peserta didik",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "2",
+      "text": "Guru mengembangkan kerjasama dan membina kebersamaan dengan teman sejawat tanpa memperhatikan perbedaan yang ada (misalnya: suku, agama, dan gender)",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "3",
+      "text": "Guru TIK memberikan materi bimbingan sesuai dengan sistematika keilmuan yang benar (konkret ke abstrak, sederhana ke kompleks, mudah ke sulit)",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "4",
+      "text": "Guru TIK mengembangkan dan menyajikan materi pembimbingan untuk mencari, mengolah, menyimpan, menyajikan, serta menyebarkan data dan informasi dalam berbagai cara untuk mendukung kelancaran proses belajar peserta didik",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "5",
+      "text": "Guru TIK menjawab atau merespons pertanyaan secara tepat dan benar sesuai dengan konsep keilmuan TIK",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "6",
+      "text": "Guru TIK mengaitkan materi bimbingan TIK dengan lingkungan dan kehidupan sehari-hari peserta didik serta kecakapan abad 21",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "7",
+      "text": "Guru TIK menyertakan informasi yang tepat dan mutakhir di dalam perencanaan dan pelaksanaan bimbingan TIK",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "8",
+      "text": "Guru TIK menguasai teknologi dan literasi digital, pendalaman pengetahuan dan kreasi pengetahuan TIK",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     }
+    ],
+    "max": 16
+   },
+   {
+    "number": 9,
+    "title": "Fasilitas guru untuk pembelajaran berbasis TIK",
+    "items": [
+     {
+      "no": "1",
+      "text": "Guru TIK melaksanakan fasilitasi terhadap guru sesuai dengan kebutuhan atau tujuan fasilitasi yang direncanakan",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "2",
+      "text": "Guru TIK menyajikan materi TIK yang memenuhi kebutuhan guru lainnya dalam perencanaan pembelajaran, dalam penggunaan media pembelajaran dan sumber belajar, atau pengelolaan data dan laporan penilaian berbasis TIK",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "3",
+      "text": "Guru TIK memberikan fasilitasi sesuai dengan sistematika keilmuan (konkret ke abstrak, sederhana ke kompleks, mudah ke sulit)",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "4",
+      "text": "Guru TIK menggunakan kegiatan belajar yang bervariasi selama proses fasilitasi",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "5",
+      "text": "Guru TIK menggunakan pendekatan pembelajaran orang dewasa selama proses fasilitasi",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "6",
+      "text": "Guru TIK melaksanakan fasilitasi secara individu atau kelompok",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "7",
+      "text": "Guru TIK mengecek tingkat penguasaan materi oleh peserta fasilitasi sebelum melanjutkan ke pokok materi berikutnya",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     }
+    ],
+    "max": 14
+   },
+   {
+    "number": 10,
+    "title": "Fasilitasi tenaga kependidikan untuk pengelolaan informasi",
+    "items": [
+     {
+      "no": "1",
+      "text": "Guru TIK melaksanakan fasilitasi terhadap guru sesuai dengan kebutuhan atau tujuan fasilitasi yang direncanakan",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "2",
+      "text": "Guru TIK menyajikan materi TIK yang memenuhi kebutuhan guru lainnya dalam perencanaan pembelajaran, dalam penggunaan media pembelajaran dan sumber belajar, atau pengelolaan data dan laporan penilaian berbasis TIK",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "3",
+      "text": "Guru TIK memberikan fasilitasi sesuai dengan sistematika keilmuan (konkret ke abstrak, sederhana ke kompleks, mudah ke sulit)",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "4",
+      "text": "Guru TIK menggunakan kegiatan belajar yang bervariasi selama proses fasilitasi",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "5",
+      "text": "Guru TIK menggunakan pendekatan pembelajaran orang dewasa selama proses fasilitasi",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "6",
+      "text": "Guru TIK melaksanakan fasilitasi secara individu atau kelompok",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "7",
+      "text": "Guru TIK mengecek tingkat penguasaan materi oleh peserta fasilitasi sebelum melanjutkan ke pokok materi berikutnya",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     }
+    ],
+    "max": 14
+   },
+   {
+    "number": 11,
+    "title": "Melakukan dan melaporkan Evaluasi Program Pembimbingan dan Fasilitasi",
+    "items": [
+     {
+      "no": "1",
+      "text": "Guru TIK melakukan evaluasi dan membuat laporan kegiatan pembimbingan TIK bagi peserta didik",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "2",
+      "text": "Guru TIK melakukan evaluasi dan membuat laporan kegiatan fasilitasi TIK bagi guru lain",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "3",
+      "text": "Guru TIK melakukan evaluasi dan membuat laporan kegiatan fasilitasi tenaga kependidikan",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "4",
+      "text": "Guru TIK menyusun program tindak lanjut berdasarkan hasil evaluasi",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     }
+    ],
+    "max": 8
+   },
+   {
+    "number": 12,
+    "title": "Mengembangkan keprofesionalan secara berkelanjutan dengan melakukan kegiatan yang refleksi",
+    "items": [
+     {
+      "no": "1",
+      "text": "Guru TIK melakukan evaluasi diri di awal tahun pelajaran",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "2",
+      "text": "Guru T IK memiliki Catatan Pelaksanaan Pembimbingan TIK bagi peserta didik",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "3",
+      "text": "Guru TIK memiliki Catatan Pelaksanaan Fasilitasi bagi guru lain dan tenaga kependidikan",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "4",
+      "text": "Guru TI K memanfaatkan hasil penilaian kinerjanya sebagai dasar untuk merencanakan peningkatan mutu proses pembimbingan dan fasilitasi TIK terhadap peserta didik, guru dan tenaga kependidikan",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "5",
+      "text": "Guru TIK mengaplikasikan pengalaman PKB dalam perencanaan, pelaksanaan, penilaian pembimbingan dan fasilitasi, dan tindak lanjutnya",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "6",
+      "text": "Guru TIK aktif meningkatkan dan mengembangkan kompetensinya melalui berbagai kegiatan Pengembangan Keprofesian Berkelanjutan",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     }
+    ],
+    "max": 12
+   }
+  ],
+  "itemCount": 65,
+  "options": [
+   0.0,
+   1.0,
+   2.0
+  ]
+ },
+ {
+  "id": "wkkur",
+  "sheet": "PKKM-WKKur",
+  "title": "INSTRUMEN PENILAIAN KINERJA WAKA KURIKULUM",
+  "label": "Wakil Kepala - Kurikulum",
+  "sections": [
+   {
+    "number": 1,
+    "title": "Kepribadian dan Sosial",
+    "items": [
+     {
+      "no": "1",
+      "text": "Berakhlak mulia, mengembangkan budaya dan tradisi akhlak mulia, dan menjadi teladan akhlak mulia bagi komunitas di sekolah/madrasah",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       },
+       {
+        "col": "H",
+        "score": 4.0
+       }
+      ]
+     },
+     {
+      "no": "2",
+      "text": "Melaksanakan tugas pokok dan fungsi sebagai wakil kepala sekolah dengan penuh kejujuran, ketulusan, komitmen, dan integritas",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       },
+       {
+        "col": "H",
+        "score": 4.0
+       }
+      ]
+     },
+     {
+      "no": "3",
+      "text": "Bersikap terbuka dalam melaksanakan tugas pokok dan fungsi sebagai wakil kepala sekolah/madrasah",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       },
+       {
+        "col": "H",
+        "score": 4.0
+       }
+      ]
+     },
+     {
+      "no": "4",
+      "text": "Mengendalikan diri dalam menghadapi masalah dan tantangan sebagai wakil kepala sekolah/madrasah",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       },
+       {
+        "col": "H",
+        "score": 4.0
+       }
+      ]
+     },
+     {
+      "no": "5",
+      "text": "Berpartisipasi dalam kegiatan social kemasyarakatan",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       },
+       {
+        "col": "H",
+        "score": 4.0
+       }
+      ]
+     },
+     {
+      "no": "6",
+      "text": "Tanggap dan peduli terhadap kepentingan orang atau kelompok lain",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       },
+       {
+        "col": "H",
+        "score": 4.0
+       }
+      ]
+     },
+     {
+      "no": "7",
+      "text": "Mengembangkan dan mengelola hubungan sekolah/madrasah dengan pihak lain di luar sekolah dalam rangka mendapatkan dukungan ide, sumber belajar, dan pembiayaan sekolah/madrasah",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       },
+       {
+        "col": "H",
+        "score": 4.0
+       }
+      ]
+     }
+    ],
+    "max": 14
+   },
+   {
+    "number": 2,
+    "title": "Kepemimpinan",
+    "items": [
+     {
+      "no": "1",
+      "text": "Bertindak sesuai dengan visi dan misi sekolah/madrasah",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       },
+       {
+        "col": "H",
+        "score": 4.0
+       }
+      ]
+     },
+     {
+      "no": "2",
+      "text": "Merumuskan tujuan yang menantang diri sendiri dan orang lain untuk mencapai standard yang tinggi",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       },
+       {
+        "col": "H",
+        "score": 4.0
+       }
+      ]
+     },
+     {
+      "no": "3",
+      "text": "Mengembangkan sekolah/madrasah menuju organisasi pembelajaran (learning organization)",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       },
+       {
+        "col": "H",
+        "score": 4.0
+       }
+      ]
+     },
+     {
+      "no": "4",
+      "text": "Menciptakan budaya dan iklim sekolah/madrasah yang kondusif dan inovatif bagi pembelajaran",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       },
+       {
+        "col": "H",
+        "score": 4.0
+       }
+      ]
+     },
+     {
+      "no": "5",
+      "text": "Memegang teguh tujuan sekolah dengan menjadi contoh dan bertindak sebagai pemimpin pembelajaran",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       },
+       {
+        "col": "H",
+        "score": 4.0
+       }
+      ]
+     },
+     {
+      "no": "6",
+      "text": "Melaksanakan kepemimpinan yang inspiratif",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       },
+       {
+        "col": "H",
+        "score": 4.0
+       }
+      ]
+     },
+     {
+      "no": "7",
+      "text": "Membangun rasa saling percaya dan memfasilitasi kerjasama dalam rangka untuk menciptakan kolaborasi yang kuat diantara warga sekolah/madrasah",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       },
+       {
+        "col": "H",
+        "score": 4.0
+       }
+      ]
+     },
+     {
+      "no": "8",
+      "text": "Bekerja keras untuk mencapai keberhasilan sekolah/madrasah sebagai organisasi pembelajar yang efektif",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       },
+       {
+        "col": "H",
+        "score": 4.0
+       }
+      ]
+     },
+     {
+      "no": "9",
+      "text": "Mengembangan kurikulum dan kegiatan pembelajaran sesuai dengan visi, misi, dan tujuan sekolah",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       },
+       {
+        "col": "H",
+        "score": 4.0
+       }
+      ]
+     },
+     {
+      "no": "10",
+      "text": "Mengelola peserta didik dalam rangka pengembangan kapasitasnya secara optimal",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       },
+       {
+        "col": "H",
+        "score": 4.0
+       }
+      ]
+     }
+    ],
+    "max": 20
+   },
+   {
+    "number": 3,
+    "title": "Pengembangan Sekolah",
+    "items": [
+     {
+      "no": "1",
+      "text": "Menyusun rencana pengembangan sekolah/madrasah jangka panjang, menengah, dan pendek dalam rangka mencapai visi, misi, dan tujuan sekolah/madrasah",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       },
+       {
+        "col": "H",
+        "score": 4.0
+       }
+      ]
+     },
+     {
+      "no": "2",
+      "text": "Mengembangkan struktur organisasi sekolah/madrasah yang efektif dan efisien sesuai dengan kebutuhan",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       },
+       {
+        "col": "H",
+        "score": 4.0
+       }
+      ]
+     },
+     {
+      "no": "3",
+      "text": "Melaksanakan pengembangan sekolah/ madrasah sesuai dengan rencana jangka panjang, menengah, dan jangka pendek sekolah menuju tercapainya visi, misi, dan tujuan sekolah",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       },
+       {
+        "col": "H",
+        "score": 4.0
+       }
+      ]
+     },
+     {
+      "no": "4",
+      "text": "Mewujudkan peningkatan kinerja sekolah yang signifikan sesuai dengan visi, misi, tujuan sekolah dan standard nasional pendidikan",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       },
+       {
+        "col": "H",
+        "score": 4.0
+       }
+      ]
+     },
+     {
+      "no": "5",
+      "text": "Melakukan monitoring, evaluasi, dan pelaporan pelaksanaan program kegiatan sekolah/madrasah dengan prosedur yang tepat",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       },
+       {
+        "col": "H",
+        "score": 4.0
+       }
+      ]
+     },
+     {
+      "no": "6",
+      "text": "Merencanakan dan menindaklanjuti hasil monitoring, evaluasi, dan pelaporan",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       },
+       {
+        "col": "H",
+        "score": 4.0
+       }
+      ]
+     },
+     {
+      "no": "7",
+      "text": "Melaksanakan penelitian tindakan sekolah dalam rangka meningkatkan kinerja sekolah/madrasah",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       },
+       {
+        "col": "H",
+        "score": 4.0
+       }
+      ]
+     }
+    ],
+    "max": 14
+   },
+   {
+    "number": 4,
+    "title": "Kewirausahaan",
+    "items": [
+     {
+      "no": "1",
+      "text": "Menciptakan inovasi yang bermanfaat bagi pengembangan sekolah/ madrasah",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       },
+       {
+        "col": "H",
+        "score": 4.0
+       }
+      ]
+     },
+     {
+      "no": "2",
+      "text": "Memiliki motivasi yang kuat untuk sukses dalam melaksanakan tugas pokok dan fungsinya sebagai pemimpin pembelajaran",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       },
+       {
+        "col": "H",
+        "score": 4.0
+       }
+      ]
+     },
+     {
+      "no": "3",
+      "text": "Memotivasi warga sekolah untuk sukses dalam melaksanakan tugas pokok dan fungsinya masing‐ masing",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       },
+       {
+        "col": "H",
+        "score": 4.0
+       }
+      ]
+     },
+     {
+      "no": "4",
+      "text": "Pantang menyerah dan selalu mencari solusi terbaik dalam menghadapi kendala yang dihadapi madrasah",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       },
+       {
+        "col": "H",
+        "score": 4.0
+       }
+      ]
+     },
+     {
+      "no": "5",
+      "text": "Menerapkan nilai dan prinsip‐prinsip kewirausahaan dalam mengembangkan madrasah",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       },
+       {
+        "col": "H",
+        "score": 4.0
+       }
+      ]
+     },
+     {
+      "no": "1",
+      "text": "Mengelola dan mendayagunakan guru dan tenaga kependidikan secara optimal",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       },
+       {
+        "col": "H",
+        "score": 4.0
+       }
+      ]
+     },
+     {
+      "no": "2",
+      "text": "Menyusun program akademik dan mengelola pelaksanaannya secara efektif, efesien dan sesuai dengan visi dan misi madrasah",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       },
+       {
+        "col": "H",
+        "score": 4.0
+       }
+      ]
+     },
+     {
+      "no": "3",
+      "text": "Menyusun program, melaksanakan, menilai dan menindaklanjuti kegiatan supervisi akademik dengan menggunakan pendekatan dan teknik supervisi yang tepat. dalam rangka peningkatan profesionalisme guru",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       },
+       {
+        "col": "H",
+        "score": 4.0
+       }
+      ]
+     }
+    ],
+    "max": 16
+   }
+  ],
+  "itemCount": 32,
+  "options": [
+   0.0,
+   1.0,
+   2.0,
+   4.0
+  ]
+ },
+ {
+  "id": "wksis",
+  "sheet": "PKKM-WKSis",
+  "title": "INSTRUMEN PENILAIAN KINERJA WAKA KESISWAAN",
+  "label": "Wakil Kepala - Kesiswaan",
+  "sections": [
+   {
+    "number": 1,
+    "title": "Kepribadian dan Sosial",
+    "items": [
+     {
+      "no": "1",
+      "text": "Berakhlak mulia, mengembangkan budaya dan tradisi akhlak mulia, dan menjadi teladan akhlak mulia bagi komunitas di sekolah/madrasah",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "2",
+      "text": "Melaksanakan tugas pokok dan fungsi sebagai wakil kepala sekolah dengan penuh kejujuran, ketulusan, komitmen, dan integritas",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "3",
+      "text": "Bersikap terbuka dalam melaksanakan tugas pokok dan fungsi sebagai wakil kepala sekolah/madrasah",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "4",
+      "text": "Mengendalikan diri dalam menghadapi masalah dan tantangan sebagai wakil kepala sekolah/madrasah",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "5",
+      "text": "Berpartisipasi dalam kegiatan social kemasyarakatan",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "6",
+      "text": "Tanggap dan peduli terhadap kepentingan orang atau kelompok lain",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "7",
+      "text": "Mengembangkan dan mengelola hubungan sekolah/madrasah dengan pihak lain di luar sekolah dalam rangka mendapatkan dukungan ide, sumber belajar, dan pembiayaan sekolah/madrasah",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     }
+    ],
+    "max": 14
+   },
+   {
+    "number": 2,
+    "title": "Kepemimpinan",
+    "items": [
+     {
+      "no": "1",
+      "text": "Bertindak sesuai dengan visi dan misi sekolah/madrasah",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "2",
+      "text": "Merumuskan tujuan yang menantang diri sendiri dan orang lain untuk mencapai standard yang tinggi",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "3",
+      "text": "Mengembangkan sekolah/madrasah menuju organisasi pembelajaran (learning organization)",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "4",
+      "text": "Menciptakan budaya dan iklim sekolah/madrasah yang kondusif dan inovatif bagi pembelajaran",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "5",
+      "text": "Memegang teguh tujuan sekolah dengan menjadi contoh dan bertindak sebagai pemimpin pembelajaran",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "6",
+      "text": "Melaksanakan kepemimpinan yang inspiratif",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "7",
+      "text": "Membangun rasa saling percaya dan memfasilitasi kerjasama dalam rangka untuk menciptakan kolaborasi yang kuat diantara warga sekolah/madrasah",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "8",
+      "text": "Bekerja keras untuk mencapai keberhasilan sekolah/madrasah sebagai organisasi pembelajar yang efektif",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "9",
+      "text": "Mengembangan kurikulum dan kegiatan pembelajaran sesuai dengan visi, misi, dan tujuan sekolah",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "10",
+      "text": "Mengelola peserta didik dalam rangka pengembangan kapasitasnya secara optimal",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     }
+    ],
+    "max": 20
+   },
+   {
+    "number": 3,
+    "title": "Pengembangan Sekolah",
+    "items": [
+     {
+      "no": "1",
+      "text": "Menyusun rencana pengembangan sekolah/madrasah jangka panjang, menengah, dan pendek dalam rangka mencapai visi, misi, dan tujuan sekolah/madrasah",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "2",
+      "text": "Mengembangkan struktur organisasi sekolah/madrasah yang efektif dan efisien sesuai dengan kebutuhan",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "3",
+      "text": "Melaksanakan pengembangan sekolah/ madrasah sesuai dengan rencana jangka panjang, menengah, dan jangka pendek sekolah menuju tercapainya visi, misi, dan tujuan sekolah",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "4",
+      "text": "Mewujudkan peningkatan kinerja sekolah yang signifikan sesuai dengan visi, misi, tujuan sekolah dan standard nasional pendidikan",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "5",
+      "text": "Melakukan monitoring, evaluasi, dan pelaporan pelaksanaan program kegiatan sekolah/madrasah dengan prosedur yang tepat",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "6",
+      "text": "Merencanakan dan menindaklanjuti hasil monitoring, evaluasi, dan pelaporan",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "7",
+      "text": "Melaksanakan penelitian tindakan sekolah dalam rangka meningkatkan kinerja sekolah/madrasah",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     }
+    ],
+    "max": 14
+   },
+   {
+    "number": 4,
+    "title": "Kewirausahaan",
+    "items": [
+     {
+      "no": "1",
+      "text": "Menciptakan inovasi yang bermanfaat bagi pengembangan sekolah/ madrasah",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "2",
+      "text": "Memiliki motivasi yang kuat untuk sukses dalam melaksanakan tugas pokok dan fungsinya sebagai pemimpin pembelajaran",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "3",
+      "text": "Memotivasi warga sekolah untuk sukses dalam melaksanakan tugas pokok dan fungsinya masing‐ masing",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "4",
+      "text": "Pantang menyerah dan selalu mencari solusi terbaik dalam menghadapi kendala yang dihadapi sekolah/madrasah",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "5",
+      "text": "Menerapkan nilai dan prinsip‐prinsip kewirausahaan dalam mengembangkan sekolah/madrasah",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "1",
+      "text": "Mengelola peserta didik dalam rangka pengembangan kapasitasnya secara optimal sesuai minat dan bakat masing-masing",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "2",
+      "text": "Mengelola layanan-layanan khusus madrasah dalam mendukung kegiatan pembelajaran dan kegiatan peserta didik di madrasah",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "3",
+      "text": "Melaksanakan bimbingan kegiatan kepeserta didikan, menegakan disiplin dan tata tertib peserta didik",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     }
+    ],
+    "max": 16
+   }
+  ],
+  "itemCount": 32,
+  "options": [
+   0.0,
+   1.0,
+   2.0
+  ]
+ },
+ {
+  "id": "wksar",
+  "sheet": "PKKM-WKSarpras",
+  "title": "INSTRUMEN PENILAIAN KINERJA WAKA SARPRAS",
+  "label": "Wakil Kepala - Sarana Prasarana",
+  "sections": [
+   {
+    "number": 1,
+    "title": "Kepribadian dan Sosial",
+    "items": [
+     {
+      "no": "1",
+      "text": "Berakhlak mulia, mengembangkan budaya dan tradisi akhlak mulia, dan menjadi teladan akhlak mulia bagi komunitas di sekolah/madrasah",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "2",
+      "text": "Melaksanakan tugas pokok dan fungsi sebagai wakil kepala sekolah dengan penuh kejujuran, ketulusan, komitmen, dan integritas",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "3",
+      "text": "Bersikap terbuka dalam melaksanakan tugas pokok dan fungsi sebagai wakil kepala sekolah/madrasah",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "4",
+      "text": "Mengendalikan diri dalam menghadapi masalah dan tantangan sebagai wakil kepala sekolah/madrasah",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "5",
+      "text": "Berpartisipasi dalam kegiatan social kemasyarakatan",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "6",
+      "text": "Tanggap dan peduli terhadap kepentingan orang atau kelompok lain",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "7",
+      "text": "Mengembangkan dan mengelola hubungan sekolah/madrasah dengan pihak lain di luar sekolah dalam rangka mendapatkan dukungan ide, sumber belajar, dan pembiayaan sekolah/madrasah",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     }
+    ],
+    "max": 14
+   },
+   {
+    "number": 2,
+    "title": "Kepemimpinan",
+    "items": [
+     {
+      "no": "1",
+      "text": "Bertindak sesuai dengan visi dan misi sekolah/madrasah",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "2",
+      "text": "Merumuskan tujuan yang menantang diri sendiri dan orang lain untuk mencapai standard yang tinggi",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "3",
+      "text": "Mengembangkan sekolah/madrasah menuju organisasi pembelajaran (learning organization)",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "4",
+      "text": "Menciptakan budaya dan iklim sekolah/madrasah yang kondusif dan inovatif bagi pembelajaran",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "5",
+      "text": "Memegang teguh tujuan sekolah dengan menjadi contoh dan bertindak sebagai pemimpin pembelajaran",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "6",
+      "text": "Melaksanakan kepemimpinan yang inspiratif",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "7",
+      "text": "Membangun rasa saling percaya dan memfasilitasi kerjasama dalam rangka untuk menciptakan kolaborasi yang kuat diantara warga sekolah/madrasah",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "8",
+      "text": "Bekerja keras untuk mencapai keberhasilan sekolah/madrasah sebagai organisasi pembelajar yang efektif",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "9",
+      "text": "Mengembangan kurikulum dan kegiatan pembelajaran sesuai dengan visi, misi, dan tujuan sekolah",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "10",
+      "text": "Mengelola peserta didik dalam rangka pengembangan kapasitasnya secara optimal",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     }
+    ],
+    "max": 20
+   },
+   {
+    "number": 3,
+    "title": "Pengembangan Sekolah",
+    "items": [
+     {
+      "no": "1",
+      "text": "Menyusun rencana pengembangan sekolah/madrasah jangka panjang, menengah, dan pendek dalam rangka mencapai visi, misi, dan tujuan sekolah/madrasah",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "2",
+      "text": "Mengembangkan struktur organisasi sekolah/madrasah yang efektif dan efisien sesuai dengan kebutuhan",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "3",
+      "text": "Melaksanakan pengembangan sekolah/ madrasah sesuai dengan rencana jangka panjang, menengah, dan jangka pendek sekolah menuju tercapainya visi, misi, dan tujuan sekolah",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "4",
+      "text": "Mewujudkan peningkatan kinerja sekolah yang signifikan sesuai dengan visi, misi, tujuan sekolah dan standard nasional pendidikan",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "5",
+      "text": "Melakukan monitoring, evaluasi, dan pelaporan pelaksanaan program kegiatan sekolah/madrasah dengan prosedur yang tepat",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "6",
+      "text": "Merencanakan dan menindaklanjuti hasil monitoring, evaluasi, dan pelaporan",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "7",
+      "text": "Melaksanakan penelitian tindakan sekolah dalam rangka meningkatkan kinerja sekolah/madrasah",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     }
+    ],
+    "max": 14
+   },
+   {
+    "number": 4,
+    "title": "Kewirausahaan",
+    "items": [
+     {
+      "no": "1",
+      "text": "Menciptakan inovasi yang bermanfaat bagi pengembangan sekolah/ madrasah",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "2",
+      "text": "Memiliki motivasi yang kuat untuk sukses dalam melaksanakan tugas pokok dan fungsinya sebagai pemimpin pembelajaran",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "3",
+      "text": "Memotivasi warga sekolah untuk sukses dalam melaksanakan tugas pokok dan fungsinya masing‐ masing",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "4",
+      "text": "Pantang menyerah dan selalu mencari solusi terbaik dalam menghadapi kendala yang dihadapi sekolah/madrasah",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "5",
+      "text": "Menerapkan nilai dan prinsip‐prinsip kewirausahaan dalam mengembangkan sekolah/madrasah",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "1",
+      "text": "Mengelola dan mendayagunakan sarana dan prasarana madrasah secara optimal untuk kepentingan pembelajaran",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "2",
+      "text": "Mengelola lingkungan madrasah yang menjamin keamanan, keselamatan, dan kesehatan",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "3",
+      "text": "Mengelola sarana sistem informasi madrasah dalam mendukung penyusunan program dan pengambilan keputusan",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     }
+    ],
+    "max": 16
+   }
+  ],
+  "itemCount": 32,
+  "options": [
+   0.0,
+   1.0,
+   2.0
+  ]
+ },
+ {
+  "id": "wkhum",
+  "sheet": "PKKM-WKHumas",
+  "title": "INSTRUMEN PENILAIAN KINERJA WAKA HUMAS",
+  "label": "Wakil Kepala - Hubungan Masyarakat",
+  "sections": [
+   {
+    "number": 1,
+    "title": "Kepribadian dan Sosial",
+    "items": [
+     {
+      "no": "1",
+      "text": "Berakhlak mulia, mengembangkan budaya dan tradisi akhlak mulia, dan menjadi teladan akhlak mulia bagi komunitas di sekolah/madrasah",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "2",
+      "text": "Melaksanakan tugas pokok dan fungsi sebagai wakil kepala sekolah dengan penuh kejujuran, ketulusan, komitmen, dan integritas",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "3",
+      "text": "Bersikap terbuka dalam melaksanakan tugas pokok dan fungsi sebagai wakil kepala sekolah/madrasah",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "4",
+      "text": "Mengendalikan diri dalam menghadapi masalah dan tantangan sebagai wakil kepala sekolah/madrasah",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "5",
+      "text": "Berpartisipasi dalam kegiatan social kemasyarakatan",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "6",
+      "text": "Tanggap dan peduli terhadap kepentingan orang atau kelompok lain",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "7",
+      "text": "Mengembangkan dan mengelola hubungan sekolah/madrasah dengan pihak lain di luar sekolah dalam rangka mendapatkan dukungan ide, sumber belajar, dan pembiayaan sekolah/madrasah",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     }
+    ],
+    "max": 14
+   },
+   {
+    "number": 2,
+    "title": "Kepemimpinan",
+    "items": [
+     {
+      "no": "1",
+      "text": "Bertindak sesuai dengan visi dan misi sekolah/madrasah",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "2",
+      "text": "Merumuskan tujuan yang menantang diri sendiri dan orang lain untuk mencapai standard yang tinggi",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "3",
+      "text": "Mengembangkan sekolah/madrasah menuju organisasi pembelajaran (learning organization)",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "4",
+      "text": "Menciptakan budaya dan iklim sekolah/madrasah yang kondusif dan inovatif bagi pembelajaran",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "5",
+      "text": "Memegang teguh tujuan sekolah dengan menjadi contoh dan bertindak sebagai pemimpin pembelajaran",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "6",
+      "text": "Melaksanakan kepemimpinan yang inspiratif",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "7",
+      "text": "Membangun rasa saling percaya dan memfasilitasi kerjasama dalam rangka untuk menciptakan kolaborasi yang kuat diantara warga sekolah/madrasah",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "8",
+      "text": "Bekerja keras untuk mencapai keberhasilan sekolah/madrasah sebagai organisasi pembelajar yang efektif",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "9",
+      "text": "Mengembangan kurikulum dan kegiatan pembelajaran sesuai dengan visi, misi, dan tujuan sekolah",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "10",
+      "text": "Mengelola peserta didik dalam rangka pengembangan kapasitasnya secara optimal",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     }
+    ],
+    "max": 20
+   },
+   {
+    "number": 3,
+    "title": "Pengembangan Sekolah",
+    "items": [
+     {
+      "no": "1",
+      "text": "Menyusun rencana pengembangan sekolah/madrasah jangka panjang, menengah, dan pendek dalam rangka mencapai visi, misi, dan tujuan sekolah/madrasah",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "2",
+      "text": "Mengembangkan struktur organisasi sekolah/madrasah yang efektif dan efisien sesuai dengan kebutuhan",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "3",
+      "text": "Melaksanakan pengembangan sekolah/ madrasah sesuai dengan rencana jangka panjang, menengah, dan jangka pendek sekolah menuju tercapainya visi, misi, dan tujuan sekolah",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "4",
+      "text": "Mewujudkan peningkatan kinerja sekolah yang signifikan sesuai dengan visi, misi, tujuan sekolah dan standard nasional pendidikan",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "5",
+      "text": "Melakukan monitoring, evaluasi, dan pelaporan pelaksanaan program kegiatan sekolah/madrasah dengan prosedur yang tepat",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "6",
+      "text": "Merencanakan dan menindaklanjuti hasil monitoring, evaluasi, dan pelaporan",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "7",
+      "text": "Melaksanakan penelitian tindakan sekolah dalam rangka meningkatkan kinerja sekolah/madrasah",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     }
+    ],
+    "max": 14
+   },
+   {
+    "number": 4,
+    "title": "Kewirausahaan",
+    "items": [
+     {
+      "no": "1",
+      "text": "Menciptakan inovasi yang bermanfaat bagi pengembangan sekolah/ madrasah",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "2",
+      "text": "Memiliki motivasi yang kuat untuk sukses dalam melaksanakan tugas pokok dan fungsinya sebagai pemimpin pembelajaran",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "3",
+      "text": "Memotivasi warga sekolah untuk sukses dalam melaksanakan tugas pokok dan fungsinya masing‐ masing",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "4",
+      "text": "Pantang menyerah dan selalu mencari solusi terbaik dalam menghadapi kendala yang dihadapi sekolah/madrasah",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "5",
+      "text": "Menerapkan nilai dan prinsip‐prinsip kewirausahaan dalam mengembangkan sekolah/madrasah",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "1",
+      "text": "Membangun jejaring kerja sama dengan pihak luar",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "2",
+      "text": "Mengelola hubungan madrasah dengan pihak lain di luar madrasah dalam rangka mendapatkan dukungan ide, sumber belajar, dan pembiayaan madrasah",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "3",
+      "text": "Mempublisasikan kebijakan, program Madrasah dan prestasi madrasah pada pihak diluar madrasah",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     }
+    ],
+    "max": 16
+   }
+  ],
+  "itemCount": 32,
+  "options": [
+   0.0,
+   1.0,
+   2.0
+  ]
+ },
+ {
+  "id": "lab",
+  "sheet": "PKKM-LAB",
+  "title": "INSTRUMEN PENILAIAN KINERJA KEPALA LABORATORIUM",
+  "label": "Kepala Laboratorium",
+  "sections": [
+   {
+    "number": 1,
+    "title": "Kepribadian",
+    "items": [
+     {
+      "no": "1",
+      "text": "Berperilaku arif dalam bertindak dan memecahkan masalah",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "2",
+      "text": "Berperilaku jujur atas semua informasi kedinasan",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "3",
+      "text": "Menunjukkan kemandirian dalam bekerja di bidangnya",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "4",
+      "text": "Menunjukkan rasa percaya diri atas keputusan yang diambil",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "5",
+      "text": "Berupaya meningkatkan kemampuan diri di bidangnya",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "6",
+      "text": "Bertindak secara konsisten sesuai dengan norma agama,hukum, sosial, dan budaya nasional Indonesia",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "7",
+      "text": "Berperilaku disiplin atas waktu dan aturan",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "8",
+      "text": "Bertanggung jawab terhadap tugas",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "9",
+      "text": "Tekun, teliti, dan hati-hati dalam melaksanakan tugas",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "10",
+      "text": "Kreatif dalam memecahkan masalah yang berkaitan dengan tugas profesinya",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "11",
+      "text": "Berorientasi pada kualitas dan kepuasan layanan pemakai laboratorium",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     }
+    ],
+    "max": 22
+   },
+   {
+    "number": 2,
+    "title": "Berperilaku jujur atas semua informasi kedinasan",
+    "items": [
+     {
+      "no": "1",
+      "text": "Menyadari kekuatan dan kelemahan diri",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "2",
+      "text": "Bekerja sama dengan berbagai pihak secara efektif",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "3",
+      "text": "Berkomunikasi dengan berbagai pihak secara santun, empati,dan efektif",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     }
+    ],
+    "max": 6
+   },
+   {
+    "number": 3,
+    "title": "Pengelolaan Program dan Administrasi",
+    "items": [
+     {
+      "no": "1",
+      "text": "Menyusun program pengelolaan laboratorium",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "2",
+      "text": "Menyusun jadwal kegiatan laboratorium",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "3",
+      "text": "Menyusun rencana pengembangan laboratorium",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "4",
+      "text": "Menyusun prosedur operasi standar (POS) kerja laboratorium",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "5",
+      "text": "Menyusun laporan kegiatan laboratorium",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     }
+    ],
+    "max": 10
+   },
+   {
+    "number": 4,
+    "title": "Pengelolaan Pemantauan dan Evaluasi",
+    "items": [
+     {
+      "no": "1",
+      "text": "Memantau kondisi dan keamanan bahan serta alat laboratorium",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "2",
+      "text": "Memantau pelaksanaan kegiatan laboratorium",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "3",
+      "text": "Membuat laporan bulanan dan tahunan tentang kondisi dan pemanfaatan laboratorium",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "4",
+      "text": "Membuat laporan kegiatan secara periodik setiap semester",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "5",
+      "text": "Mengevaluasi program laboratorium untuk perbaikan selanjutnya",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     }
+    ],
+    "max": 10
+   },
+   {
+    "number": 5,
+    "title": "Pengembangan dan Inovasi",
+    "items": [
+     {
+      "no": "1",
+      "text": "Mengikuti perkembangan tentang pemanfaatan kegiatan laboratorium sebagai wahana pendidikan",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "2",
+      "text": "Menerapkan hasil inovasi atau kajian laboratorium",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "3",
+      "text": "Merancang kegiatan laboratorium untuk pendidikan dan penelitian",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "4",
+      "text": "Melaksanakan kegiatan laboratorium untuk kepentingan pendidikan dan penelitian",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     }
+    ],
+    "max": 8
+   },
+   {
+    "number": 6,
+    "title": "Pengelolaan Lingkungan dan K3",
+    "items": [
+     {
+      "no": "1",
+      "text": "Menyusun panduan/petunjuk praktikum",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "2",
+      "text": "Menetapkan ketentuan mengenai kesehatan dan keselamatan kerja (K3)",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "3",
+      "text": "Menerapkan ketentuan mengenai kesehatan dan keselamatan kerja (K3)",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "4",
+      "text": "Menerapkan prosedur penanganan bahan berbahaya dan beracun",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "5",
+      "text": "Memantau bahan berbahaya dan beracun, serta peralatan keselamatan kerja",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     }
+    ],
+    "max": 10
+   }
+  ],
+  "itemCount": 33,
+  "options": [
+   0.0,
+   1.0,
+   2.0
+  ]
+ },
+ {
+  "id": "pus",
+  "sheet": "PKKM-PUS",
+  "title": "INSTRUMEN PENILAIAN KINERJA KEPALA PERPUSTAKAAN",
+  "label": "Kepala Perpustakaan",
+  "sections": [
+   {
+    "number": 1,
+    "title": "Merencanakan penyelenggaraan kegiatan perpustakaan",
+    "items": [
+     {
+      "no": "1",
+      "text": "Memiliki dokumen perumusan visi-misi perpustakaan sekolah/madrasah yang ditetapkan dengan Surat Keputusan Kepala Sekolah/madrasah",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "2",
+      "text": "Memiliki naskah kebijakan pengembangan koleksi perpustakaan",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "3",
+      "text": "Memiliki dokumen renstra penyelenggaraan kegiatan perpustakaan jangka menengah dan panjang",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "4",
+      "text": "Memiliki naskah program kerja tahunan penyelenggaraan kegiatan perpustakaan",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "5",
+      "text": "Memiliki naskah program literasi sekolah",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     }
+    ],
+    "max": 10
+   },
+   {
+    "number": 2,
+    "title": "Melaksanakan monitoring dan evaluasi penyelenggaraan kegiatan perpustakaan",
+    "items": [
+     {
+      "no": "1",
+      "text": "Memiliki naskah instrumen monitoring dan evaluasi penyelenggaraan kegiatan perpustakaan",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "2",
+      "text": "Memiliki laporan pelaksanaan monitoring dan evaluasi penyelenggaraan kegiatan perpustakaan",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "3",
+      "text": "Memiliki naskah instrumen monitoring dan evaluasi pengembangan sumber daya perpustakaan",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "4",
+      "text": "Memiliki laporan pelaksanaan monitoring dan evaluasi pengembangan sumber daya perpustakaan",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "5",
+      "text": "Memiliki naskah instrumen monitoring dan evaluasi anggaran perpustakaan",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "6",
+      "text": "Memiliki laporan pelaksanaan monitoring dan evaluasi anggaran perpustakaan",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     }
+    ],
+    "max": 12
+   },
+   {
+    "number": 3,
+    "title": "Melaksanakan Pelayanan teknis",
+    "items": [
+     {
+      "no": "1",
+      "text": "Memiliki laporan jumlah seleksi buku usulan pengadaan bahan perpustakaan pada tiga tahun terakhir",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "2",
+      "text": "Memiliki laporan jumlah buku yang diklasifikasi tiga tahun terakhir",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "3",
+      "text": "Memiliki laporan jumlah buku yang ditentukan tajuk subyek pada tiga tahun terakhir",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "4",
+      "text": "Memiliki laporan jumlah penyusunan alat telusur/katalog pada tiga tahun terakhir",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "5",
+      "text": "Memiliki laporan jumlah perawatan koleksi perpustakaan pada tiga tahun terakhir",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     }
+    ],
+    "max": 10
+   },
+   {
+    "number": 4,
+    "title": "Melaksanakan Pelayanan pustaka",
+    "items": [
+     {
+      "no": "1",
+      "text": "Memiliki laporan jumlah pengunjung manual dan online pada tiga tahun terakhir",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "2",
+      "text": "Memiliki laporan jumlah Peminjam dan buku yang dipinjam pada tiga tahun terakhir",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "3",
+      "text": "Memiliki laporan jumlah pemustaka yang dilayani jasa rujukan manual dan online pada tiga tahun terakhir",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "4",
+      "text": "Memiliki laporan kegiatan pendidikan pemakai pada tiga tahun terakhir",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     }
+    ],
+    "max": 8
+   },
+   {
+    "number": 5,
+    "title": "Melaksanakan Pengkajian Kepustakawanan",
+    "items": [
+     {
+      "no": "1",
+      "text": "Memiliki naskah kajian minat baca",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "2",
+      "text": "Memiliki naskah kajian kepuasan pemustaka",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "3",
+      "text": "Memiliki naskah kajian keterpakaian perpustakaan dalam pembelajaran",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "4",
+      "text": "Memiliki naskah kajian literasi sekolah",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     }
+    ],
+    "max": 8
+   },
+   {
+    "number": 6,
+    "title": "Melaksanakan Pengembangan Kepustakawanan",
+    "items": [
+     {
+      "no": "1",
+      "text": "Memiliki dokumen promosi perpustakaan",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "2",
+      "text": "Memiliki laporan sosialisasi perpustakaan",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "3",
+      "text": "Memiliki laporan literasi perpustakaan",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "4",
+      "text": "Memiliki dokumen makalah/tulisan tentang perpustakaan",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     }
+    ],
+    "max": 8
+   },
+   {
+    "number": 7,
+    "title": "Melaksanakan Pengembangan Profesi Kepustakawanan",
+    "items": [
+     {
+      "no": "1",
+      "text": "Memiliki sertifikat kegiatan pendidikan dan pelatihan dan atau bimbingan teknis di bidang Kepustakawanan",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "2",
+      "text": "Memiliki sertifikat kegiatan seminar/lokakarya/konferensi di bidang Kepustakawanan",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "3",
+      "text": "Memiliki surat tugas/sertifikat kegiatan magang/studi banding perpustakaan",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "4",
+      "text": "Memiliki dokumen kepengurusan/anggota organisasi profesi di bidang Kepustakawanan",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     }
+    ],
+    "max": 8
+   },
+   {
+    "number": 8,
+    "title": "Melaksanakan Tugas Pelayanan",
+    "items": [
+     {
+      "no": "1",
+      "text": "Berperilaku sopan",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "2",
+      "text": "Berpenampilan rapi",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "3",
+      "text": "Memberikan pelayanan sesuai kebutuhan pemustaka",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     }
+    ],
+    "max": 6
+   },
+   {
+    "number": 9,
+    "title": "Memiliki Integritas",
+    "items": [
+     {
+      "no": "1",
+      "text": "Berperilaku sesuai dengan kode etik pustakawan (mematuhi norma dan etika kepustakawanan)",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "2",
+      "text": "Bertanggungjawab dalam melaksanakan tugas",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "3",
+      "text": "Melaksanakan keputusan/kesepakatan yang telah dibuat",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     }
+    ],
+    "max": 6
+   },
+   {
+    "number": 10,
+    "title": "Memiliki Kedisiplinan",
+    "items": [
+     {
+      "no": "1",
+      "text": "Mematuhi aturan jam kerja pegawai",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "2",
+      "text": "Meminta ijin atasan bila meninggalkan tugas",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "3",
+      "text": "Melaksanakan tugas tepat waktu",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     }
+    ],
+    "max": 6
+   },
+   {
+    "number": 11,
+    "title": "Melaksanakan Kerja sama",
+    "items": [
+     {
+      "no": "1",
+      "text": "Menghargai atasan",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "2",
+      "text": "Menghargai teman sejawat",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     },
+     {
+      "no": "3",
+      "text": "Terlibat dalam aktivitas bersama",
+      "options": [
+       {
+        "col": "E",
+        "score": 0.0
+       },
+       {
+        "col": "F",
+        "score": 1.0
+       },
+       {
+        "col": "G",
+        "score": 2.0
+       }
+      ]
+     }
+    ],
+    "max": 6
+   }
+  ],
+  "itemCount": 44,
+  "options": [
+   0.0,
+   1.0,
+   2.0
+  ]
+ }
+]

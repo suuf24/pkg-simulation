@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>PKG — Penilaian Kinerja Guru</title>
+  <link rel="stylesheet" href="./styles.css" />
+  <link rel="stylesheet" href="./report.css" />
+</head>
+<body>
+  <div class="app">
+    <aside class="sidebar">
+      <div class="brand">
+        <div class="brand-mark">PKG</div>
+        <div>
+          <strong>Penilaian Kinerja</strong>
+          <span>Guru &amp; Tenaga Kependidikan</span>
+        </div>
+      </div>
+
+      <nav class="tabs" id="tabs" aria-label="Navigasi">
+        <button class="tab" data-tab="identitas">1. Identitas</button>
+        <button class="tab" data-tab="instrumen">2. Instrumen Penilaian</button>
+        <button class="tab" data-tab="rekap">3. Rekap Nilai</button>
+        <button class="tab" data-tab="prioritas">4. Prioritas PKB</button>
+        <button class="tab" data-tab="kehadiran">5. Kehadiran</button>
+        <button class="tab" data-tab="cetak">6. Cetak Laporan</button>
+      </nav>
+
+      <div class="sidebar-foot">
+        <div class="progress-card">
+          <span class="muted small">Progres penilaian</span>
+          <strong id="progress-value">0%</strong>
+          <div class="bar"><i id="progress-bar" style="width:0%"></i></div>
+          <span class="muted small" id="progress-detail">0 dari 0 indikator</span>
+        </div>
+        <div class="row gap">
+          <button class="btn small" id="btn-export">Ekspor</button>
+          <button class="btn small" id="btn-import">Impor</button>
+          <input type="file" id="file-import" accept="application/json" hidden />
+        </div>
+        <button class="btn small danger block" id="btn-reset">Reset semua isian</button>
+      </div>
+    </aside>
+
+    <main class="main">
+      <header class="topbar">
+        <div>
+          <h1 id="page-title">Identitas Guru</h1>
+          <p class="muted" id="page-sub">Data pokok yang dipakai seluruh instrumen dan laporan.</p>
+        </div>
+        <div class="topbar-actions">
+          <span class="pill" id="pill-nilai">Nilai akhir: —</span>
+          <button class="btn primary" id="btn-print">Cetak</button>
+        </div>
+      </header>
+
+      <section class="view" id="view-identitas"></section>
+      <section class="view" id="view-instrumen" hidden></section>
+      <section class="view" id="view-rekap" hidden></section>
+      <section class="view" id="view-prioritas" hidden></section>
+      <section class="view" id="view-kehadiran" hidden></section>
+      <section class="view" id="view-cetak" hidden></section>
+    </main>
+  </div>
+
+  <div class="toast" id="toast" hidden></div>
+
+  <script src="./app.js" type="module"></script>
+</body>
+</html>

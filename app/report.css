@@ -1,0 +1,665 @@
+/* ==================================================================
+   Dokumen PKG — pratinjau layar dan cetak PDF
+   Ukuran halaman: F4 210 x 330 mm; halaman Prioritas PKB landscape.
+   Acuan audit: margin 18 mm, Carlito, isi 10,5/14,5 pt, tabel 9,5/12,5 pt.
+   ================================================================== */
+
+@font-face {
+  font-family: "Carlito";
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  src: url("./assets/fonts/carlito-400-normal.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Carlito";
+  font-style: normal;
+  font-weight: 700;
+  font-display: block;
+  src: url("./assets/fonts/carlito-700-normal.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Carlito";
+  font-style: italic;
+  font-weight: 400;
+  font-display: block;
+  src: url("./assets/fonts/carlito-400-italic.woff2") format("woff2");
+}
+
+:root {
+  --doc-blue: #2f5597;
+  --doc-head: #dfe8ef;
+  --doc-table-head: #dfe8ef;
+  --doc-group: #d9d2e9;
+  --doc-grey: #e6e6e6;
+  --doc-accent: #fbe5d2;
+  --doc-font: "Carlito", "Calibri", "Segoe UI", Arial, sans-serif;
+  --body-size: 10.5pt;
+  --body-leading: 14.5pt;
+  --table-size: 9.5pt;
+  --table-leading: 12.5pt;
+  --title-size: 13pt;
+  --title-leading: 17pt;
+  --kv-label: 66.3mm;
+}
+
+.report-body {
+  margin: 0;
+  background: #fff;
+  color: #111;
+}
+
+.sheet {
+  box-sizing: border-box;
+  width: 210mm;
+  min-height: 330mm;
+  padding: 18mm;
+  margin: 0 auto 16mm;
+  background: #fff;
+  border: 1px solid #d5dbe8;
+  border-radius: 2px;
+  box-shadow: 0 2px 4px rgba(16, 24, 40, .06), 0 10px 30px -16px rgba(16, 24, 40, .28);
+  color: #111;
+  font-family: var(--doc-font);
+  font-size: var(--body-size);
+  line-height: var(--body-leading);
+}
+
+.sheet--landscape {
+  width: 330mm;
+  min-height: 210mm;
+  padding: 18mm;
+}
+
+/* ---------- judul ---------- */
+
+.doc-title {
+  margin: 0 0 2mm;
+  padding-bottom: 2mm;
+  border-bottom: .5pt solid #000;
+  font-family: var(--doc-font);
+  font-size: var(--title-size);
+  font-weight: 700;
+  line-height: var(--title-leading);
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: .015em;
+  break-after: avoid;
+}
+
+.doc-title--identitas,
+.doc-title--prio,
+.doc-title--rekap,
+.doc-title--akpkb,
+.doc-title--laporan {
+  font-size: var(--title-size);
+  line-height: var(--title-leading);
+}
+
+/* ---------- blok identitas berbingkai ---------- */
+
+.doc-frame {
+  border: .5pt solid var(--doc-blue);
+}
+
+.doc-frame--gap {
+  margin-top: 4mm;
+}
+
+.doc-frame-head {
+  padding: 2mm 2.5mm;
+  border-bottom: .5pt solid var(--doc-blue);
+  background: var(--doc-head);
+  font-size: var(--body-size);
+  font-weight: 700;
+}
+
+.kv {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+  font-size: var(--body-size);
+  line-height: var(--body-leading);
+}
+
+.kv th,
+.kv td {
+  padding: .25mm .6mm;
+  text-align: left;
+  vertical-align: top;
+  font-weight: 400;
+}
+
+.kv th {
+  width: var(--kv-label);
+}
+
+.kv .abbr {
+  width: 1pt;
+  padding-left: 2.5mm;
+  padding-right: 0;
+}
+
+.kv th {
+  padding: .25mm .6mm .25mm 3.5mm;
+}
+
+.kv--rekap {
+  table-layout: fixed;
+  font-size: var(--body-size);
+  line-height: var(--body-leading);
+}
+
+.kv--rekap th,
+.kv--rekap td {
+  padding: .25mm .6mm;
+}
+
+.kv--rekap th {
+  width: var(--kv-label);
+  padding-left: 3.5mm;
+}
+
+.kv--rekap .abbr {
+  width: 1pt;
+  padding-left: 2.5mm;
+  padding-right: 0;
+}
+
+.kv--laporan {
+  table-layout: fixed;
+  font-size: var(--body-size);
+  line-height: var(--body-leading);
+}
+
+.kv--laporan th,
+.kv--laporan td {
+  padding: .25mm .6mm;
+}
+
+.kv--laporan th {
+  width: var(--kv-label);
+  padding-left: 3.5mm;
+}
+
+.kv--laporan .abbr {
+  width: 1pt;
+  padding-left: 2.5mm;
+  padding-right: 0;
+}
+
+.kv--laporan-second {
+  margin-top: 4mm;
+}
+
+.identitas-sign .sign-grid {
+  margin-top: 5.2mm;
+}
+
+.rekap-sign .sign-grid {
+  margin-top: 2.4mm;
+}
+
+.ak-sign .sign-grid {
+  margin-top: 1.4mm;
+}
+
+.grid-table.rekap th,
+.grid-table.rekap td {
+  padding: 2.37pt 3.2pt;
+}
+
+.grid-table.rekap .grp td {
+  padding: 2.37pt 3.2pt;
+}
+
+.ak {
+  margin-top: 2mm;
+}
+
+/* ---------- tanda tangan ---------- */
+
+.sign-grid {
+  display: grid;
+  width: 100%;
+  column-gap: 0;
+  margin: 4mm auto 0;
+  font-size: var(--body-size);
+  line-height: var(--body-leading);
+  text-align: left;
+  break-inside: avoid;
+}
+
+.sign-grid--2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.sign-grid--3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.sign-grid .s-date { min-height: var(--body-leading); }
+
+.sign-grid .s-role {
+  line-height: var(--body-leading);
+}
+
+.sign-grid .s-name {
+  margin-top: 12mm;
+  font-weight: 700;
+  line-height: var(--body-leading);
+}
+
+.sign-grid .s-nip {
+  line-height: var(--body-leading);
+}
+
+.sign-grid--prio {
+  margin-top: 4mm;
+}
+
+.sign-grid--prio .s-name { margin-top: 12mm; }
+
+.keep { break-inside: avoid; }
+
+/* ---------- tabel umum ---------- */
+
+.grid-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: var(--table-size);
+  line-height: var(--table-leading);
+}
+
+.grid-table th,
+.grid-table td {
+  padding: 2pt 3.2pt;
+  border: .5pt solid #000;
+  text-align: left;
+  vertical-align: top;
+}
+
+.grid-table thead th {
+  background: var(--doc-table-head);
+  font-size: var(--table-size);
+  font-weight: 700;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.grid-table .c { text-align: center; }
+.grid-table .strong { font-weight: 700; }
+.grid-table .empty { text-align: center; font-style: italic; padding: 6mm; }
+
+.grid-table .grp td {
+  padding: 2pt 3.2pt;
+  background: var(--doc-group);
+  font-size: var(--table-size);
+  font-weight: 700;
+}
+
+.grid-table tfoot td {
+  background: var(--doc-grey);
+  font-weight: 700;
+}
+
+.formula-note {
+  margin-top: .5mm;
+  font-size: var(--table-size);
+  font-weight: 400;
+  line-height: var(--table-leading);
+}
+
+/* ---------- prioritas PKB ---------- */
+
+.mini-id-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0;
+  margin: 0 0 2mm;
+}
+
+.mini-id {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: var(--body-size);
+  line-height: 15.5pt;
+}
+
+.mini-id th {
+  width: 39.5mm;
+  padding: 0;
+  text-align: left;
+  font-weight: 400;
+  vertical-align: top;
+}
+
+.mini-id td {
+  padding: 0;
+  vertical-align: top;
+}
+
+.mini-id .colon { width: 4mm; }
+
+.prio {
+  width: 100%;
+  margin: 2mm 0 0;
+  font-size: var(--table-size);
+  line-height: var(--table-leading);
+}
+
+.prio tbody td { padding: 2pt 3.2pt; }
+
+.grid-table .r { text-align: right; }
+
+/* ---------- periode penilaian ---------- */
+
+.period {
+  width: 100%;
+  margin: 3mm 0 2mm;
+  table-layout: fixed;
+  border-collapse: collapse;
+  font-size: var(--table-size);
+  line-height: var(--table-leading);
+}
+
+.period td {
+  padding: 2pt 3.2pt;
+  border: .5pt solid #000;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.period-main { width: 57.4%; }
+.period-label { text-align: center; }
+.period-value { margin-top: 1.5pt; font-weight: 700; text-align: center; }
+.ps-label { width: 14.2%; text-align: center; }
+.ps-val { width: 10.1%; text-align: center; font-weight: 700; }
+.period-year {
+  width: 18.3%;
+  text-align: center;
+}
+.period-year span { display: block; }
+.period-year b { font-size: 11pt; }
+
+/* ---------- angka kredit ---------- */
+
+.ak-total td { background: #fff; }
+.ak-total .strong { font-weight: 700; }
+.ak-total .small { font-size: 8pt; font-weight: 400; }
+
+.ak-box {
+  display: flex;
+  margin-top: 4mm;
+  border: .5pt solid #000;
+  break-inside: avoid;
+}
+
+.ak-left {
+  flex: 1;
+  padding: 3mm 4mm;
+  border-right: .5pt solid #000;
+}
+
+.ak-value {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 52mm;
+  background: var(--doc-accent);
+  font-size: 20pt;
+  font-weight: 700;
+}
+
+.ak-min {
+  width: 90mm;
+  border-collapse: collapse;
+  font-size: var(--table-size);
+  line-height: var(--table-leading);
+}
+
+.ak-min th,
+.ak-min td {
+  padding: 2pt;
+  border: .5pt solid #000;
+  text-align: center;
+  font-weight: 400;
+}
+
+.ak-note {
+  margin: 3mm 0 1.5mm;
+  font-size: var(--body-size);
+  line-height: var(--body-leading);
+}
+
+.ak-formula {
+  padding: 2mm;
+  border: .5pt solid #000;
+  background: #fafafa;
+  font-size: var(--table-size);
+  line-height: var(--table-leading);
+}
+
+/* ---------- persetujuan ---------- */
+
+.agreement {
+  margin-top: 4mm;
+  padding: 4mm;
+  border: .5pt solid #000;
+}
+
+.agreement h3 {
+  margin: 0;
+  font-size: var(--body-size);
+  line-height: 16pt;
+  text-align: center;
+}
+
+.agreement .sub {
+  margin: 1mm 0 3mm;
+  font-size: var(--table-size);
+  font-style: italic;
+  line-height: 12.5pt;
+  text-align: center;
+}
+
+.agreement .body {
+  margin: 0 0 7.5mm;
+  font-size: var(--body-size);
+  line-height: var(--body-leading);
+  text-align: justify;
+}
+
+.agreement-cols {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0;
+}
+
+.agree-label { font-size: var(--body-size); }
+
+.agree-name {
+  margin-top: 1.5mm;
+  font-size: var(--body-size);
+  font-weight: 700;
+}
+
+.agree-nip { margin-top: .3mm; font-size: var(--body-size); }
+
+.ttd-label { margin-top: 2mm; font-size: var(--body-size); }
+
+.ttd-line {
+  margin-top: 6mm;
+  font-size: var(--body-size);
+  letter-spacing: .05em;
+}
+
+.agreement-date {
+  margin-top: 10mm;
+  font-size: var(--body-size);
+  text-align: center;
+}
+
+/* ---------- sampul ---------- */
+
+.sheet--sampul { padding-top: 18mm; }
+
+.cover-frame {
+  box-sizing: border-box;
+  height: 294mm;
+  margin-top: 0;
+  padding: 2mm;
+  border: .9mm solid #000;
+  border-radius: 4mm;
+}
+
+.cover-inner {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  padding: 8mm 12mm;
+  border: .3mm solid #000;
+  border-radius: 3mm;
+  text-align: center;
+}
+
+.cover-head h1 {
+  margin: 17.8mm 0 0;
+  font-family: var(--doc-font);
+  font-size: 22pt;
+  font-weight: 700;
+  line-height: 1.2;
+  text-transform: uppercase;
+  letter-spacing: .02em;
+}
+
+.cover-sub {
+  margin-top: 2mm;
+  font-family: var(--doc-font);
+  font-size: 15pt;
+  font-weight: 700;
+}
+
+.cover-logo {
+  width: 53mm;
+  height: 47.5mm;
+  margin-top: 14mm;
+  object-fit: contain;
+}
+
+.cover-id {
+  align-self: flex-start;
+  margin: 18.7mm 0 0 2.6mm;
+  border-collapse: collapse;
+  font-size: 12pt;
+  line-height: 18pt;
+  text-align: left;
+}
+
+.cover-id th {
+  width: 42.9mm;
+  padding: .75mm 3mm .75mm 0;
+  font-family: var(--doc-font);
+  font-size: 12pt;
+  font-weight: 400;
+  vertical-align: top;
+  white-space: nowrap;
+}
+
+.cover-id td {
+  padding: .75mm 0;
+  vertical-align: top;
+}
+
+.cover-id .colon { width: 5mm; }
+.cover-id .strong { font-weight: 700; }
+
+.tugas-line {
+  display: grid;
+  grid-template-columns: 5mm 1fr;
+  text-align: left;
+}
+
+.cover-school { margin-top: 22mm; }
+
+.school-name,
+.school-region {
+  font-size: 14pt;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+.school-period {
+  margin-top: 3.2mm;
+  font-size: 11pt;
+  font-weight: 700;
+}
+
+.cover-foot {
+  margin-top: auto;
+  margin-bottom: 3.5mm;
+  font-size: 13pt;
+  font-weight: 700;
+  line-height: 1.35;
+}
+
+.cover-year {
+  margin-top: 2.5mm;
+  font-size: 11pt;
+  font-weight: 700;
+}
+
+/* ==================================================================
+   Cetak / PDF
+   ================================================================== */
+
+@media print {
+  @page {
+    size: 210mm 330mm;
+    margin: 18mm;
+  }
+
+  @page land {
+    size: 330mm 210mm;
+    margin: 18mm;
+  }
+
+  html,
+  body {
+    background: #fff !important;
+  }
+
+  .sheet {
+    width: auto;
+    min-height: 0;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
+    page-break-after: always;
+    break-after: page;
+  }
+
+  .sheet--landscape { page: land; }
+
+  .sheet:last-child {
+    page-break-after: auto;
+    break-after: auto;
+  }
+
+  .sheet,
+  .sheet * {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  .sheet--sampul { padding-top: 0; }
+
+  thead { display: table-header-group; }
+  tr { break-inside: avoid; }
+}
