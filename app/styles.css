@@ -88,8 +88,13 @@ body {
 
 .progress-card strong { font-size: 20px; }
 
-.bar { height: 6px; border-radius: 99px; background: #26344f; overflow: hidden; }
-.bar > i { display: block; height: 100%; background: linear-gradient(90deg, #3b82f6, #22d3ee); }
+.konversi-card strong {
+  font-size: 32px;
+  line-height: 1;
+  font-variant-numeric: tabular-nums;
+}
+
+.konversi-card span:first-child { line-height: 1.35; }
 
 .muted { color: var(--muted); }
 .small { font-size: 12px; }

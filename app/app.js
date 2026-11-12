@@ -5,7 +5,6 @@ import {
   instrumentStats as calcInstrumentStats,
   jamTugasTambahan as calcJamTugasTambahan,
   kehadiranStats as calcKehadiranStats,
-  overallProgress as calcOverallProgress,
   prioritasRows as calcPrioritasRows,
   rekapKompetensi as calcRekapKompetensi,
   rekapRows as calcRekapRows,
@@ -161,7 +160,6 @@ const sectionStats = (inst, sIdx) => calcSectionStats(inst, sIdx, state.jawaban)
 const instrumentStats = (inst) => calcInstrumentStats(inst, state.jawaban)
 const rekapRows = () => calcRekapRows(instruments, state.jawaban)
 const finalScore = () => calcFinalScore(instruments, state.jawaban)
-const overallProgress = () => calcOverallProgress(instruments, state.jawaban)
 const prioritasRows = (instId, limit = 12) =>
   calcPrioritasRows(instruments.find((i) => i.id === instId), state.jawaban, limit)
 const kehadiranStats = () => calcKehadiranStats(state.kehadiran)
@@ -383,6 +381,7 @@ function renderInstrumen() {
         state.instrumenAktif = i.id
         save()
         renderInstrumen()
+        updateChrome()
         showKonversiPreview(i, rect)
       },
     })))
@@ -541,6 +540,7 @@ function renderPrioritas() {
         state.instrumenAktif = i.id
         save()
         renderPrioritas()
+        updateChrome()
       },
     })))
 
@@ -847,6 +847,7 @@ function switchTab(tab) {
   $('#page-title').textContent = title
   $('#page-sub').textContent = sub
   renderActive()
+  updateChrome()
   window.scrollTo({ top: 0, behavior: 'instant' })
 }
 
@@ -860,10 +861,14 @@ function renderActive() {
 }
 
 function updateChrome() {
-  const prog = overallProgress()
-  $('#progress-value').textContent = persen(prog.pct)
-  $('#progress-bar').style.width = `${Math.min(100, prog.pct)}%`
-  $('#progress-detail').textContent = `${prog.done} dari ${prog.all} indikator`
+  const inst = instruments.find((i) => i.id === state.instrumenAktif) || instruments[0]
+  const rk = inst ? calcRekapKompetensi(inst, state.jawaban) : null
+  $('#konversi-value').textContent = rk && rk.answered ? String(rk.pct) : '—'
+  $('#konversi-detail').textContent = !inst
+    ? 'Pilih instrumen penilaian'
+    : rk.answered
+      ? `${inst.label} · ${rk.answered} dari ${rk.rows.length} kompetensi terisi`
+      : `${inst.label} · belum ada nilai`
   const final = finalScore()
   $('#pill-nilai').textContent = final ? `Nilai akhir: ${persen(final.pct)} · ${final.predikat}` : 'Nilai akhir: —'
 }
