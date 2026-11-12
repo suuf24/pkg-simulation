@@ -32,6 +32,25 @@ export const GOLONGAN = {
   'Pembina Utama, IV/e': { ak: 200, diri: 5, publikasi: 14, penunjang: 20 },
 }
 
+/* Pangkat kini diisi sebagai teks bebas; ambil besaran AK dari kode golongan
+ * (mis. "III/a") agar perhitungan tetap berjalan walau sebutan berbeda. */
+export function golonganOf(pangkat) {
+  const kosong = { ak: 0, diri: 0, publikasi: 0, penunjang: 0 }
+  const value = String(pangkat || '').trim()
+  if (!value) return kosong
+  if (GOLONGAN[value]) return GOLONGAN[value]
+  const rapat = value.toLowerCase().replace(/\s+/g, ' ')
+  const persis = Object.keys(GOLONGAN).find((k) => k.toLowerCase() === rapat)
+  if (persis) return GOLONGAN[persis]
+  const kode = value.match(/(I{1,3}|IV)\s*\/\s*([a-e])/i)
+  if (kode) {
+    const pola = `${kode[1].toLowerCase()}/${kode[2].toLowerCase()}`
+    const kunci = Object.keys(GOLONGAN).find((k) => k.toLowerCase().includes(pola))
+    if (kunci) return GOLONGAN[kunci]
+  }
+  return kosong
+}
+
 export const JAM_TUGAS = {
   'Kepala Madrasah': 24,
   'Waka Kurikulum': 12,
@@ -168,9 +187,9 @@ export function prioritasRows(inst, jawaban, limit = 12) {
 export function kehadiranStats(kehadiran = []) {
   const rows = BULAN.map((_b, i) => {
     const m = kehadiran[i] || {}
-    const terlambat = Number(m.terlambat) || 0
-    const pulang = Number(m.pulang) || 0
-    const alpa = Number(m.alpa) || 0
+    const terlambat = toNumber(m.terlambat)
+    const pulang = toNumber(m.pulang)
+    const alpa = toNumber(m.alpa)
     const menit = terlambat + pulang
     const konversi = menit / MENIT_PER_HARI
     const tidakHadir = konversi + alpa
@@ -192,6 +211,13 @@ export function jamTugasTambahan(identitas = {}) {
 /* ------------------------------------------------------------------ */
 /* Format angka                                                        */
 /* ------------------------------------------------------------------ */
+
+/* Menerima isian teks bebas: "1,5" dan "1.5" sama-sama dibaca 1,5. */
+export const toNumber = (value, fallback = 0) => {
+  if (typeof value === 'number') return Number.isFinite(value) ? value : fallback
+  const n = Number(String(value ?? '').trim().replace(',', '.'))
+  return Number.isFinite(n) ? n : fallback
+}
 
 export const angka = (n, d = 2) => Number(n).toLocaleString('id-ID', {
   minimumFractionDigits: d,
@@ -217,7 +243,9 @@ export function rekapKompetensi(inst, jawaban) {
   const total = rows.reduce((sum, r) => sum + (r.grade || 0), 0)
   const max = rows.length * 4
   const answered = rows.filter((r) => r.answered > 0).length
-  return { rows, total, max, answered, pct: answered && max ? (total / max) * 100 : 0 }
+  const pct = answered && max ? (total / max) * 100 : 0
+  /* Konversi nilai PKG selalu bilangan bulat tanpa desimal. */
+  return { rows, total, max, answered, pct: Math.round(pct) }
 }
 
 const MONTHS = {
@@ -267,7 +295,7 @@ export function golonganSingkat(pangkat) {
 }
 
 export function angkaKredit(pangkat, nilaiAkhir) {
-  const g = GOLONGAN[pangkat] || { ak: 0, diri: 0, publikasi: 0, penunjang: 0 }
+  const g = golonganOf(pangkat)
   const akpkb = g.diri + g.publikasi
   const nilai = Number(nilaiAkhir) || 0
   const npk = nilai <= 50 ? 25 : nilai <= 60 ? 50 : nilai <= 75 ? 75 : nilai <= 90 ? 100 : nilai <= 100 ? 125 : 0

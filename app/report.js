@@ -472,12 +472,12 @@ function akpkbDoc(d) {
           <td>Atasan (Kepala Sekolah/Pengawas/Guru Senior)</td>
           <td class="c">${d.rekap.answered ? nilai : '—'}</td>
           <td class="c">100%</td>
-          <td class="c">${d.rekap.answered ? angka(d.nilaiAkhir, 2) : '—'}</td>
+          <td class="c">${d.rekap.answered ? num(d.nilaiAkhir) : '—'}</td>
         </tr>
         <tr><td class="c">2</td><td>Rerata kuesioner kinerja oleh Guru Teman Sejawat</td><td></td><td></td><td></td></tr>
         <tr><td class="c">3</td><td>Rerata kuesioner kinerja oleh Peserta Didik</td><td></td><td></td><td></td></tr>
         <tr><td class="c">4</td><td>Rerata kuesioner kinerja oleh Orangtua Peserta Didik</td><td></td><td></td><td></td></tr>
-        <tr class="ak-total"><td colspan="4">Nilai PK Guru = <b>Jumlah Nilai</b></td><td class="c">${d.rekap.answered ? angka(d.nilaiAkhir, 2) : '—'}</td></tr>
+        <tr class="ak-total"><td colspan="4">Nilai PK Guru = <b>Jumlah Nilai</b></td><td class="c">${d.rekap.answered ? num(d.nilaiAkhir) : '—'}</td></tr>
         <tr class="ak-total"><td colspan="4">Tidak Hadir Tanpa Keterangan = <b>(a hari)</b></td><td class="c">${num(d.kehadiran.totalAlpa, 0)}</td></tr>
         <tr class="ak-total"><td colspan="4">Persentase Nilai PKG dari Kehadiran = <b>100% - (a/46) x 100%</b></td><td class="c">${kehadiranPct}%</td></tr>
         <tr class="ak-total"><td colspan="4">Nilai Akhir PKG = <b>Nilai PKG x Persentase Nilai PKG dari Kehadiran</b></td><td class="c strong">${akhir}</td></tr>

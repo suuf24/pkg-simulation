@@ -1,5 +1,5 @@
 import {
-  BULAN, GOLONGAN, HARI_EFEKTIF, JAM_TUGAS, angka, gradeOf, persen, predikatOf,
+  BULAN, HARI_EFEKTIF, JAM_TUGAS, angka, golonganOf, gradeOf, persen, predikatOf,
   answerOf as calcAnswerOf,
   finalScore as calcFinalScore,
   instrumentStats as calcInstrumentStats,
@@ -7,6 +7,7 @@ import {
   kehadiranStats as calcKehadiranStats,
   overallProgress as calcOverallProgress,
   prioritasRows as calcPrioritasRows,
+  rekapKompetensi as calcRekapKompetensi,
   rekapRows as calcRekapRows,
   sectionStats as calcSectionStats,
 } from './calc.js'
@@ -25,30 +26,30 @@ const IDENTITAS_FIELDS = [
   { key: 'nrg', label: 'NRG' },
   { key: 'nuptk', label: 'NUPTK' },
   { key: 'karpeg', label: 'Nomor Seri Karpeg' },
-  { key: 'jenisKelamin', label: 'Jenis Kelamin', type: 'select', options: ['Laki-laki', 'Perempuan'] },
+  { key: 'jenisKelamin', label: 'Jenis Kelamin' },
   { key: 'tempatLahir', label: 'Tempat Lahir' },
   { key: 'tanggalLahir', label: 'Tanggal Lahir' },
   { key: 'pendidikan', label: 'Pendidikan Terakhir' },
-  { key: 'pangkat', label: 'Pangkat / Golongan', type: 'select', options: Object.keys(GOLONGAN) },
+  { key: 'pangkat', label: 'Pangkat / Golongan' },
   { key: 'tmtGol', label: 'TMT Golongan' },
   { key: 'tmtGuru', label: 'TMT sebagai Guru' },
   { key: 'tmtTugas', label: 'TMT Tugas Tambahan' },
   { key: 'mapel', label: 'Mata Pelajaran / Kelas' },
-  { key: 'jamMengajar', label: 'Jumlah Jam Mengajar', type: 'number' },
+  { key: 'jamMengajar', label: 'Jumlah Jam Mengajar' },
   { key: 'tugas1', label: 'Tugas Tambahan 1', type: 'select', options: Object.keys(JAM_TUGAS) },
   { key: 'tugas2', label: 'Tugas Tambahan 2', type: 'select', options: Object.keys(JAM_TUGAS) },
   { key: 'tugas3', label: 'Tugas Tambahan 3', type: 'select', options: Object.keys(JAM_TUGAS) },
   { key: 'tugasLain', label: 'Tugas di Lembaga Lain' },
-  { key: 'jamLain', label: 'Jumlah Jam di Lembaga Lain', type: 'number' },
+  { key: 'jamLain', label: 'Jumlah Jam di Lembaga Lain' },
   { key: 'penilai', label: 'Nama Penilai' },
   { key: 'nipPenilai', label: 'NIP Penilai' },
   { key: 'pangkatPenilai', label: 'Pangkat/Golongan Penilai' },
   { key: 'tanggalPenilaian', label: 'Tanggal Penilaian' },
   { key: 'periodeAwal', label: 'Periode Penilaian (awal)' },
   { key: 'periodeAkhir', label: 'Periode Penilaian (akhir)' },
-  { key: 'formatif', label: 'Formatif', type: 'select', options: ['0', '1', 'V'] },
-  { key: 'sumatif', label: 'Sumatif', type: 'select', options: ['0', '1', 'V'] },
-  { key: 'kemajuan', label: 'Kemajuan', type: 'select', options: ['0', '1', 'V'] },
+  { key: 'formatif', label: 'Formatif' },
+  { key: 'sumatif', label: 'Sumatif' },
+  { key: 'kemajuan', label: 'Kemajuan' },
   { key: 'madrasah', label: 'Nama Madrasah' },
   { key: 'alamat', label: 'Alamat Madrasah' },
   { key: 'telp', label: 'Telp / Fax Madrasah' },
@@ -196,51 +197,87 @@ function toast(message) {
 /* Tab: Identitas                                                      */
 /* ------------------------------------------------------------------ */
 
+/* Petunjuk singkat agar isian mudah dipahami pengguna awam. */
+const FIELD_HINTS = {
+  jenisKelamin: 'Tulis Laki-laki atau Perempuan.',
+  tempatLahir: 'Contoh: Jombang',
+  tanggalLahir: 'Contoh: 24 Desember 1997',
+  pangkat: 'Tulis lengkap dengan kode golongan, contoh: Penata Muda, III/a',
+  tmtGol: 'Contoh: 1 Juli 2025',
+  tmtGuru: 'Contoh: 1 Juli 2025',
+  tmtTugas: 'Contoh: 1 Juli 2025',
+  mapel: 'Contoh: Matematika',
+  jamMengajar: 'Angka saja, contoh: 20',
+  jamLain: 'Angka saja, contoh: 0',
+  tanggalPenilaian: 'Contoh: 14 September 2026',
+  periodeAwal: 'Contoh: 1 Juli 2026',
+  periodeAkhir: 'Contoh: 31 Desember 2026',
+  formatif: 'Isi 0, 1, atau V',
+  sumatif: 'Isi 0, 1, atau V',
+  kemajuan: 'Isi 0, 1, atau V',
+  tahun: 'Contoh: 2025',
+}
+
+let identitasStatsNode = null
+
+function identitasStats() {
+  const gol = golonganOf(state.identitas.pangkat)
+  const dikenal = gol.ak > 0
+  return el('div', { class: 'stat-grid' },
+    stat('Jam tugas tambahan', `${jamTugasTambahan()} jam`,
+      'Kepala 24, waka/kepala lab 12, wali kelas & pembina ekskul 6, guru piket 1'),
+    stat('AK komulatif minimal', dikenal ? `${gol.ak}` : '—',
+      dikenal ? `Untuk golongan ${state.identitas.pangkat}` : 'Tulis kode golongan, contoh: Penata Muda, III/a'),
+    stat('AK pengembangan diri', dikenal ? `${gol.diri}` : '—', 'Target angka kredit unsur pengembangan diri'),
+    stat('AK publikasi / karya inovatif', dikenal ? `${gol.publikasi}` : '—',
+      dikenal ? `${gol.penunjang} untuk unsur penunjang` : 'Menunggu kode golongan yang sesuai'),
+  )
+}
+
+function refreshIdentitasStats() {
+  if (!identitasStatsNode) return
+  const next = identitasStats()
+  identitasStatsNode.replaceWith(next)
+  identitasStatsNode = next
+}
+
 function renderIdentitas() {
   const view = $('#view-identitas')
   view.replaceChildren()
 
-  const gol = GOLONGAN[state.identitas.pangkat] || { ak: 0, diri: 0, publikasi: 0, penunjang: 0 }
-
   const grid = el('div', { class: 'grid' })
   IDENTITAS_FIELDS.forEach((f) => {
+    const hint = FIELD_HINTS[f.key]
     const input = f.type === 'select'
       ? el('select', {}, ...f.options.map((o) => el('option', {
         value: o,
         selected: String(state.identitas[f.key]) === o ? 'selected' : null,
         text: o,
       })))
-      : el('input', {
-        type: f.type === 'number' ? 'number' : 'text',
-        value: state.identitas[f.key] ?? '',
-      })
+      : el('input', { type: 'text', value: state.identitas[f.key] ?? '' })
     if (f.type === 'select') input.value = state.identitas[f.key]
     input.addEventListener('input', () => {
-      state.identitas[f.key] = f.type === 'number' ? Number(input.value) : input.value
+      state.identitas[f.key] = input.value
       save()
-      renderIdentitas()
+      refreshIdentitasStats()
       updateChrome()
     })
-    grid.append(el('div', { class: 'field' }, el('label', { text: f.label }), input))
+    grid.append(el('div', { class: 'field' },
+      el('label', { text: f.label }), input,
+      hint ? el('span', { class: 'hint', text: hint }) : null))
   })
 
-  const stats = el('div', { class: 'stat-grid' },
-    stat('Jam tugas tambahan', `${jamTugasTambahan()} jam`,
-      'Kepala 24, waka/kepala lab 12, wali kelas & pembina ekskul 6, guru piket 1'),
-    stat('AK komulatif minimal', `${gol.ak}`, `Untuk golongan ${state.identitas.pangkat}`),
-    stat('AK pengembangan diri', `${gol.diri}`, 'Target angka kredit unsur pengembangan diri'),
-    stat('AK publikasi / karya inovatif', `${gol.publikasi}`, `${gol.penunjang} untuk unsur penunjang`),
-  )
+  identitasStatsNode = identitasStats()
 
   view.append(
     el('div', { class: 'card' },
       el('h2', { text: 'Identitas guru, penilai, dan madrasah' }),
-      el('p', { class: 'muted', text: 'Nilai di sini dipakai pada semua instrumen, rekap, dan halaman cetak.' }),
+      el('p', { class: 'muted', text: 'Semua isian berupa kotak teks. Tulis apa adanya; nilai di sini dipakai pada semua instrumen, rekap, dan halaman cetak.' }),
       grid),
     el('div', { class: 'card' },
       el('h2', { text: 'Turunan otomatis' }),
       el('p', { class: 'muted', text: 'Dihitung dengan aturan yang sama seperti sheet DATA pada berkas asli.' }),
-      stats),
+      identitasStatsNode),
   )
 }
 
@@ -249,6 +286,81 @@ function stat(label, value, hint) {
     el('span', { text: label }),
     el('strong', { text: value }),
     hint ? el('div', { class: 'muted small', text: hint }) : null)
+}
+
+/* ------------------------------------------------------------------ */
+/* Pratinjau mengambang: konversi nilai PKG ke skala 0 - 100           */
+/* ------------------------------------------------------------------ */
+
+let previewState = null
+let previewNode = null
+
+function konversiContent(inst) {
+  const rk = calcRekapKompetensi(inst, state.jawaban)
+  return [
+    el('div', { class: 'fp-head' },
+      el('span', { class: 'fp-kicker', text: 'Pratinjau konversi' }),
+      el('button', {
+        class: 'fp-close',
+        type: 'button',
+        'aria-label': 'Tutup pratinjau',
+        text: '×',
+        onclick: closeKonversiPreview,
+      })),
+    el('div', { class: 'fp-inst', text: inst.label }),
+    el('div', { class: 'fp-label', text: 'Konversi nilai PKG ke dalam skala 0 - 100' }),
+    el('div', { class: 'fp-value' },
+      el('strong', { text: `${rk.pct}` }),
+      el('span', { text: 'skala 0 - 100' })),
+    el('div', { class: 'fp-meta', text: `Jumlah nilai ${rk.total} / ${rk.max} · ${rk.answered} dari ${rk.rows.length} kompetensi terisi` }),
+    el('div', { class: `fp-predikat${rk.answered ? '' : ' empty'}`, text: rk.answered ? `Predikat: ${predikatOf(rk.pct)}` : 'Belum ada nilai' }),
+  ]
+}
+
+function placeKonversiPreview(rect) {
+  if (!previewNode) return
+  const margin = 12
+  const w = previewNode.offsetWidth
+  const h = previewNode.offsetHeight
+  let left = rect.left + rect.width / 2 - w / 2
+  left = Math.min(Math.max(margin, left), Math.max(margin, window.innerWidth - w - margin))
+  let top = rect.bottom + 10
+  if (top + h > window.innerHeight - margin) top = Math.max(margin, rect.top - h - 10)
+  previewNode.style.left = `${left}px`
+  previewNode.style.top = `${top}px`
+}
+
+function showKonversiPreview(inst, rect) {
+  previewState = { instId: inst.id, rect }
+  if (!previewNode) {
+    previewNode = el('div', { class: 'float-preview', role: 'status', 'aria-live': 'polite' })
+    document.body.append(previewNode)
+  }
+  previewNode.replaceChildren(...konversiContent(inst))
+  placeKonversiPreview(rect)
+}
+
+function refreshKonversiPreview() {
+  if (!previewState) return
+  const inst = instruments.find((i) => i.id === previewState.instId)
+  if (!inst || inst.id !== state.instrumenAktif) {
+    closeKonversiPreview()
+    return
+  }
+  if (!previewNode) {
+    showKonversiPreview(inst, previewState.rect)
+    return
+  }
+  previewNode.replaceChildren(...konversiContent(inst))
+  placeKonversiPreview(previewState.rect)
+}
+
+function closeKonversiPreview() {
+  previewState = null
+  if (previewNode) {
+    previewNode.remove()
+    previewNode = null
+  }
 }
 
 /* ------------------------------------------------------------------ */
@@ -265,10 +377,12 @@ function renderInstrumen() {
     ...instruments.map((i) => el('button', {
       class: `chip${i.id === inst.id ? ' active' : ''}`,
       text: i.label,
-      onclick: () => {
+      onclick: (event) => {
+        const rect = event.currentTarget.getBoundingClientRect()
         state.instrumenAktif = i.id
         save()
         renderInstrumen()
+        showKonversiPreview(i, rect)
       },
     })))
 
@@ -336,12 +450,14 @@ function renderInstrumen() {
   view.append(
     el('div', { class: 'card' },
       el('h2', { text: 'Pilih instrumen' }),
-      el('p', { class: 'muted', text: 'Sembilan instrumen dari berkas asli. Klik sel skor untuk menandai X; klik lagi untuk mengosongkan.' }),
+      el('p', { class: 'muted', text: 'Sembilan instrumen dari berkas asli. Klik nama instrumen untuk melihat pratinjau konversi nilai PKG (skala 0 - 100); klik sel skor untuk menandai X, klik lagi untuk mengosongkan.' }),
       picker),
     summary,
     el('div', { class: 'card' }, table),
     el('div', { class: 'note', text: 'Aturan penilaian mengikuti berkas asli: setiap indikator diberi satu tanda X pada kolom skor, dan nilai kompetensi = (total skor ÷ (jumlah indikator × 2)) × 100%.' }),
   )
+
+  refreshKonversiPreview()
 }
 
 /* ------------------------------------------------------------------ */
@@ -486,15 +602,22 @@ function renderKehadiran() {
   const tbody = el('tbody')
   const inputs = (index, key) => {
     const input = el('input', {
-      type: 'number',
-      min: '0',
+      type: 'text',
       value: state.kehadiran[index][key],
+      placeholder: '0',
+      'data-kh': `${index}:${key}`,
       style: 'max-width:110px;text-align:right',
     })
     input.addEventListener('input', () => {
       state.kehadiran[index][key] = input.value
       save()
       renderKehadiran()
+      const next = document.querySelector(`[data-kh="${index}:${key}"]`)
+      if (next) {
+        next.focus()
+        const end = next.value.length
+        try { next.setSelectionRange(end, end) } catch { /* input tanpa seleksi */ }
+      }
     })
     return input
   }
@@ -530,7 +653,7 @@ function renderKehadiran() {
     ),
     el('div', { class: 'card' },
       el('h2', { text: 'Rekapitulasi ketidakhadiran guru' }),
-      el('p', { class: 'muted', text: 'Terlambat dan pulang cepat diisi menit; 450 menit dikonversi menjadi 1 hari.' }),
+      el('p', { class: 'muted', text: 'Isi dengan angka saja. Terlambat dan pulang cepat dalam menit, tanpa keterangan dalam hari; 450 menit dihitung 1 hari. Kosongkan atau isi 0 bila tidak ada.' }),
       table),
   )
 }
@@ -715,6 +838,7 @@ const TITLES = {
 let activeTab = 'identitas'
 
 function switchTab(tab) {
+  if (tab !== 'instrumen') closeKonversiPreview()
   activeTab = tab
   document.querySelectorAll('.tab').forEach((b) => b.classList.toggle('active', b.dataset.tab === tab))
   document.querySelectorAll('.view').forEach((v) => { v.hidden = v.id !== `view-${tab}` })
@@ -824,6 +948,9 @@ async function boot() {
   $('#btn-print').addEventListener('click', () => {
     switchTab('cetak')
     setTimeout(() => printSheets(currentReport().allHtml), 150)
+  })
+  document.addEventListener('keydown', (event) => {
+    if (event.key === 'Escape') closeKonversiPreview()
   })
 
   await Promise.all([loadReportAssets(), detectPdfApi()])
